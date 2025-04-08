@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Ecommerce.API.Controller
@@ -9,5 +10,14 @@ namespace Ecommerce.API.Controller
     {
         [HttpGet("/")]
         public int GetNum() => 1;
+
+        [HttpGet]
+        [Authorize]
+        public IActionResult TestAuth()
+        {
+            return Ok(User.Claims.Select(c => new { c.Type , c.Value }));
+        }
     }
+
+
 }

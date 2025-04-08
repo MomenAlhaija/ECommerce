@@ -5,6 +5,7 @@ using ECommerce.Infrastructure;
 using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Authentication.OpenIdConnect;
 using Microsoft.IdentityModel.Protocols.OpenIdConnect;
+using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
 using StackExchange.Redis;
 
@@ -75,28 +76,15 @@ builder.Services.AddStackExchangeRedisCache(options =>
 });
 
 
-builder.Services.AddAuthentication(o =>
-{
-    o.DefaultScheme = CookieAuthenticationDefaults.AuthenticationScheme;
-    o.DefaultChallengeScheme = OpenIdConnectDefaults.AuthenticationScheme; // Fix here
-})
-.AddCookie()
-.AddOpenIdConnect(options =>
-{
-    options.Authority = "https://localhost:7110/";
-    options.ClientId = "ecommerce-client";
-    options.ClientSecret = "9f1b2a1e-71b0-4c62-93fb-e4c5a10f8de7";
-    options.Scope.Clear();
-    options.Scope.Add("openId");
-    options.Scope.Add("profile");
-    options.Scope.Add("ecommerce");
-    options.Scope.Add("ecommerceapi");
-    options.Scope.Add("email");
-
-    options.SaveTokens = true;
-    options.ResponseType = "code";
-
-});
+builder.Services.AddAuthentication("Bearer")
+    .AddJwtBearer("Bearer" , options =>
+    {
+        options.Authority = "https://localhost:7110";
+        options.TokenValidationParameters = new TokenValidationParameters
+        {
+            ValidateAudience = false
+        };
+    });
 
 
 var app = builder.Build();

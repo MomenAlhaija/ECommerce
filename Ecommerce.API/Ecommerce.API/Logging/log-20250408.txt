@@ -1,0 +1,392 @@
+2025-04-08 10:13:58.870 +03:00 [INF] User profile is available. Using 'C:\Users\AmerAmoorah\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-04-08 10:13:59.156 +03:00 [INF] Now listening on: https://localhost:7060
+2025-04-08 10:13:59.158 +03:00 [INF] Now listening on: http://localhost:5062
+2025-04-08 10:13:59.205 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-04-08 10:13:59.207 +03:00 [INF] Hosting environment: Development
+2025-04-08 10:13:59.209 +03:00 [INF] Content root path: C:\Users\AmerAmoorah\Source\Repos\ECommerce\Ecommerce.API\Ecommerce.API
+2025-04-08 10:14:00.175 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/swagger - null null
+2025-04-08 10:14:00.320 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/swagger - 301 0 null 151.2347ms
+2025-04-08 10:14:00.328 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/swagger/index.html - null null
+2025-04-08 10:14:00.376 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/swagger/index.html - 200 null text/html;charset=utf-8 48.4658ms
+2025-04-08 10:14:00.379 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/swagger/swagger-ui.css - null null
+2025-04-08 10:14:00.379 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/swagger/swagger-ui-bundle.js - null null
+2025-04-08 10:14:00.379 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/swagger/swagger-ui-standalone-preset.js - null null
+2025-04-08 10:14:00.416 +03:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2025-04-08 10:14:00.416 +03:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2025-04-08 10:14:00.419 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/swagger/swagger-ui.css - 200 152034 text/css 40.3713ms
+2025-04-08 10:14:00.419 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/swagger/swagger-ui-standalone-preset.js - 200 230280 text/javascript 39.8661ms
+2025-04-08 10:14:00.424 +03:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2025-04-08 10:14:00.424 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/swagger/swagger-ui-bundle.js - 200 1456926 text/javascript 45.015ms
+2025-04-08 10:14:00.426 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/_framework/aspnetcore-browser-refresh.js - null null
+2025-04-08 10:14:00.429 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/_vs/browserLink - null null
+2025-04-08 10:14:00.430 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/_framework/aspnetcore-browser-refresh.js - 200 16511 application/javascript; charset=utf-8 4.6809ms
+2025-04-08 10:14:00.481 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/_vs/browserLink - 200 null text/javascript; charset=UTF-8 52.4549ms
+2025-04-08 10:14:00.664 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/swagger/v1/swagger.json - null null
+2025-04-08 10:14:00.671 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/swagger/favicon-32x32.png - null null
+2025-04-08 10:14:00.671 +03:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2025-04-08 10:14:00.671 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/swagger/favicon-32x32.png - 200 628 image/png 0.9091ms
+2025-04-08 10:14:00.677 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 13.802ms
+2025-04-08 10:14:36.693 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/api/Test - null null
+2025-04-08 10:14:36.784 +03:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-04-08 10:14:41.660 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/ - null null
+2025-04-08 10:14:41.664 +03:00 [INF] Executing endpoint 'Ecommerce.API.Controller.Test1Controller.GetNum (Ecommerce.API)'
+2025-04-08 10:14:41.673 +03:00 [INF] Route matched with {action = "GetNum", controller = "Test1"}. Executing controller action with signature Int32 GetNum() on controller Ecommerce.API.Controller.Test1Controller (Ecommerce.API).
+2025-04-08 10:14:41.675 +03:00 [INF] Executing ObjectResult, writing value of type 'System.Int32'.
+2025-04-08 10:14:41.680 +03:00 [INF] Executed action Ecommerce.API.Controller.Test1Controller.GetNum (Ecommerce.API) in 4.5978ms
+2025-04-08 10:14:41.680 +03:00 [INF] Executed endpoint 'Ecommerce.API.Controller.Test1Controller.GetNum (Ecommerce.API)'
+2025-04-08 10:14:41.680 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/ - 200 null application/json; charset=utf-8 20.157ms
+2025-04-08 10:14:42.604 +03:00 [INF] AuthenticationScheme: OpenIdConnect was challenged.
+2025-04-08 10:14:42.605 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/api/Test - 302 0 null 5912.9363ms
+2025-04-08 10:15:08.910 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/swagger/index.html - null null
+2025-04-08 10:15:08.918 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/swagger/index.html - 200 null text/html;charset=utf-8 8.0665ms
+2025-04-08 10:15:08.947 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/_framework/aspnetcore-browser-refresh.js - null null
+2025-04-08 10:15:08.947 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/_vs/browserLink - null null
+2025-04-08 10:15:08.949 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/_framework/aspnetcore-browser-refresh.js - 200 16511 application/javascript; charset=utf-8 2.6476ms
+2025-04-08 10:15:08.966 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/_vs/browserLink - 200 null text/javascript; charset=UTF-8 20.1812ms
+2025-04-08 10:15:09.333 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/swagger/v1/swagger.json - null null
+2025-04-08 10:15:09.346 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 14.0482ms
+2025-04-08 10:15:13.510 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/api/Test/TestAuth - null null
+2025-04-08 10:15:13.512 +03:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-04-08 10:15:13.513 +03:00 [INF] AuthenticationScheme: OpenIdConnect was challenged.
+2025-04-08 10:15:13.513 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/api/Test/TestAuth - 302 0 null 3.5748ms
+2025-04-08 10:15:31.446 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/api/Test/TestAuth - null null
+2025-04-08 10:15:31.448 +03:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-04-08 10:15:31.449 +03:00 [INF] AuthenticationScheme: OpenIdConnect was challenged.
+2025-04-08 10:15:31.449 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/api/Test/TestAuth - 302 0 null 4.7845ms
+2025-04-08 10:17:54.641 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/swagger/index.html - null null
+2025-04-08 10:17:54.653 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/swagger/index.html - 200 null text/html;charset=utf-8 11.3264ms
+2025-04-08 10:17:54.676 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/_vs/browserLink - null null
+2025-04-08 10:17:54.676 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/_framework/aspnetcore-browser-refresh.js - null null
+2025-04-08 10:17:54.678 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/_framework/aspnetcore-browser-refresh.js - 200 16511 application/javascript; charset=utf-8 2.0576ms
+2025-04-08 10:17:54.694 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/_vs/browserLink - 200 null text/javascript; charset=UTF-8 17.5736ms
+2025-04-08 10:17:54.806 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/swagger/v1/swagger.json - null null
+2025-04-08 10:17:54.813 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 6.7116ms
+2025-04-08 10:17:59.975 +03:00 [INF] User profile is available. Using 'C:\Users\AmerAmoorah\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-04-08 10:18:00.180 +03:00 [INF] Now listening on: https://localhost:7060
+2025-04-08 10:18:00.181 +03:00 [INF] Now listening on: http://localhost:5062
+2025-04-08 10:18:00.210 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-04-08 10:18:00.212 +03:00 [INF] Hosting environment: Development
+2025-04-08 10:18:00.213 +03:00 [INF] Content root path: C:\Users\AmerAmoorah\Source\Repos\ECommerce\Ecommerce.API\Ecommerce.API
+2025-04-08 10:18:00.679 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/swagger/index.html - null null
+2025-04-08 10:18:00.844 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/swagger/index.html - 200 null text/html;charset=utf-8 167.8827ms
+2025-04-08 10:18:00.848 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/_framework/aspnetcore-browser-refresh.js - null null
+2025-04-08 10:18:00.848 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/_vs/browserLink - null null
+2025-04-08 10:18:00.859 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/_framework/aspnetcore-browser-refresh.js - 200 16511 application/javascript; charset=utf-8 11.3863ms
+2025-04-08 10:18:00.887 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/_vs/browserLink - 200 null text/javascript; charset=UTF-8 39.3547ms
+2025-04-08 10:18:01.016 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/swagger/v1/swagger.json - null null
+2025-04-08 10:18:01.036 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 20.1138ms
+2025-04-08 10:18:12.425 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/api/Test/TestAuth - null null
+2025-04-08 10:18:12.526 +03:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-04-08 10:18:12.697 +03:00 [INF] AuthenticationScheme: OpenIdConnect was challenged.
+2025-04-08 10:18:12.699 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/api/Test/TestAuth - 302 0 null 275.2863ms
+2025-04-08 10:21:08.789 +03:00 [INF] User profile is available. Using 'C:\Users\AmerAmoorah\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-04-08 10:21:08.987 +03:00 [INF] Now listening on: https://localhost:7060
+2025-04-08 10:21:08.989 +03:00 [INF] Now listening on: http://localhost:5062
+2025-04-08 10:21:09.017 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-04-08 10:21:09.019 +03:00 [INF] Hosting environment: Development
+2025-04-08 10:21:09.020 +03:00 [INF] Content root path: C:\Users\AmerAmoorah\Source\Repos\ECommerce\Ecommerce.API\Ecommerce.API
+2025-04-08 10:21:09.587 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/swagger/index.html - null null
+2025-04-08 10:21:09.750 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/swagger/index.html - 200 null text/html;charset=utf-8 167.5181ms
+2025-04-08 10:21:09.755 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/_vs/browserLink - null null
+2025-04-08 10:21:09.755 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/_framework/aspnetcore-browser-refresh.js - null null
+2025-04-08 10:21:09.759 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/_framework/aspnetcore-browser-refresh.js - 200 16511 application/javascript; charset=utf-8 4.3485ms
+2025-04-08 10:21:09.786 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/_vs/browserLink - 200 null text/javascript; charset=UTF-8 31.2344ms
+2025-04-08 10:21:09.837 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/swagger/v1/swagger.json - null null
+2025-04-08 10:21:09.854 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 17.9375ms
+2025-04-08 10:21:15.322 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/api/Test/TestAuth - null null
+2025-04-08 10:21:15.411 +03:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-04-08 10:21:15.570 +03:00 [INF] AuthenticationScheme: OpenIdConnect was challenged.
+2025-04-08 10:21:15.572 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/api/Test/TestAuth - 302 0 null 250.2325ms
+2025-04-08 10:21:34.490 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/api/Test/TestAuth - null null
+2025-04-08 10:21:34.498 +03:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-04-08 10:21:34.501 +03:00 [INF] AuthenticationScheme: OpenIdConnect was challenged.
+2025-04-08 10:21:34.501 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/api/Test/TestAuth - 302 0 null 11.7937ms
+2025-04-08 10:21:55.118 +03:00 [INF] User profile is available. Using 'C:\Users\AmerAmoorah\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-04-08 10:21:55.342 +03:00 [INF] Now listening on: https://localhost:7060
+2025-04-08 10:21:55.344 +03:00 [INF] Now listening on: http://localhost:5062
+2025-04-08 10:21:55.376 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-04-08 10:21:55.379 +03:00 [INF] Hosting environment: Development
+2025-04-08 10:21:55.380 +03:00 [INF] Content root path: C:\Users\AmerAmoorah\Source\Repos\ECommerce\Ecommerce.API\Ecommerce.API
+2025-04-08 10:21:55.846 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/swagger/index.html - null null
+2025-04-08 10:21:56.023 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/swagger/index.html - 200 null text/html;charset=utf-8 183.1203ms
+2025-04-08 10:21:56.028 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/_vs/browserLink - null null
+2025-04-08 10:21:56.028 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/_framework/aspnetcore-browser-refresh.js - null null
+2025-04-08 10:21:56.032 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/_framework/aspnetcore-browser-refresh.js - 200 16511 application/javascript; charset=utf-8 4.0336ms
+2025-04-08 10:21:56.058 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/_vs/browserLink - 200 null text/javascript; charset=UTF-8 30.343ms
+2025-04-08 10:21:56.100 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/swagger/v1/swagger.json - null null
+2025-04-08 10:21:56.115 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 14.9787ms
+2025-04-08 10:22:06.878 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/api/Test/TestAuth - null null
+2025-04-08 10:22:06.965 +03:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-04-08 10:22:07.296 +03:00 [INF] AuthenticationScheme: OpenIdConnect was challenged.
+2025-04-08 10:22:07.297 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/api/Test/TestAuth - 302 0 null 419.9959ms
+2025-04-08 10:23:23.479 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/api/Test/TestAuth - null null
+2025-04-08 10:23:23.495 +03:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-04-08 10:23:23.500 +03:00 [INF] AuthenticationScheme: OpenIdConnect was challenged.
+2025-04-08 10:23:23.501 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/api/Test/TestAuth - 302 0 null 22.7649ms
+2025-04-08 10:25:31.266 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/api/Test/TestAuth - null null
+2025-04-08 10:25:31.280 +03:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-04-08 10:25:31.282 +03:00 [INF] AuthenticationScheme: OpenIdConnect was challenged.
+2025-04-08 10:25:31.282 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/api/Test/TestAuth - 302 0 null 20.2162ms
+2025-04-08 10:27:16.049 +03:00 [INF] User profile is available. Using 'C:\Users\AmerAmoorah\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-04-08 10:27:16.255 +03:00 [INF] Now listening on: https://localhost:7060
+2025-04-08 10:27:16.257 +03:00 [INF] Now listening on: http://localhost:5062
+2025-04-08 10:27:16.288 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-04-08 10:27:16.290 +03:00 [INF] Hosting environment: Development
+2025-04-08 10:27:16.291 +03:00 [INF] Content root path: C:\Users\AmerAmoorah\Source\Repos\ECommerce\Ecommerce.API\Ecommerce.API
+2025-04-08 10:27:16.716 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/swagger/index.html - null null
+2025-04-08 10:27:16.876 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/swagger/index.html - 200 null text/html;charset=utf-8 165.4696ms
+2025-04-08 10:27:16.881 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/_framework/aspnetcore-browser-refresh.js - null null
+2025-04-08 10:27:16.881 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/_vs/browserLink - null null
+2025-04-08 10:27:16.885 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/_framework/aspnetcore-browser-refresh.js - 200 16511 application/javascript; charset=utf-8 4.5296ms
+2025-04-08 10:27:16.914 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/_vs/browserLink - 200 null text/javascript; charset=UTF-8 34.0967ms
+2025-04-08 10:27:16.961 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/swagger/v1/swagger.json - null null
+2025-04-08 10:27:16.976 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 14.6343ms
+2025-04-08 10:27:21.164 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/api/Test/TestAuth - null null
+2025-04-08 10:27:21.212 +03:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-04-08 10:27:21.479 +03:00 [INF] AuthenticationScheme: OpenIdConnect was challenged.
+2025-04-08 10:27:21.480 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/api/Test/TestAuth - 302 0 null 316.1962ms
+2025-04-08 10:27:45.204 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/api/Test/TestAuth - null null
+2025-04-08 10:27:45.212 +03:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-04-08 10:27:45.215 +03:00 [INF] AuthenticationScheme: OpenIdConnect was challenged.
+2025-04-08 10:27:45.215 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/api/Test/TestAuth - 302 0 null 11.7956ms
+2025-04-08 10:29:05.370 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/api/Test/TestAuth - null null
+2025-04-08 10:29:05.378 +03:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-04-08 10:29:05.379 +03:00 [INF] AuthenticationScheme: OpenIdConnect was challenged.
+2025-04-08 10:29:05.380 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/api/Test/TestAuth - 302 0 null 14.3593ms
+2025-04-08 10:29:08.004 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/swagger/index.html - null null
+2025-04-08 10:29:08.032 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/swagger/index.html - 200 null text/html;charset=utf-8 28.8472ms
+2025-04-08 10:29:08.042 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/_framework/aspnetcore-browser-refresh.js - null null
+2025-04-08 10:29:08.044 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/_framework/aspnetcore-browser-refresh.js - 200 16511 application/javascript; charset=utf-8 2.2691ms
+2025-04-08 10:29:08.048 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/_vs/browserLink - null null
+2025-04-08 10:29:08.075 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/_vs/browserLink - 200 null text/javascript; charset=UTF-8 27.8422ms
+2025-04-08 10:29:08.143 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/swagger/v1/swagger.json - null null
+2025-04-08 10:29:08.168 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 22.3542ms
+2025-04-08 10:29:12.383 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/api/Test/TestAuth - null null
+2025-04-08 10:29:12.384 +03:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-04-08 10:29:12.385 +03:00 [INF] AuthenticationScheme: OpenIdConnect was challenged.
+2025-04-08 10:29:12.386 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/api/Test/TestAuth - 302 0 null 3.5691ms
+2025-04-08 10:29:40.333 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/api/Test/TestAuth - null null
+2025-04-08 10:29:40.344 +03:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-04-08 10:29:40.346 +03:00 [INF] AuthenticationScheme: OpenIdConnect was challenged.
+2025-04-08 10:29:40.346 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/api/Test/TestAuth - 302 0 null 13.7456ms
+2025-04-08 10:29:41.252 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/api/Test/TestAuth - null null
+2025-04-08 10:29:41.253 +03:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-04-08 10:29:41.254 +03:00 [INF] AuthenticationScheme: OpenIdConnect was challenged.
+2025-04-08 10:29:41.254 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/api/Test/TestAuth - 302 0 null 2.7307ms
+2025-04-08 10:30:15.842 +03:00 [INF] User profile is available. Using 'C:\Users\AmerAmoorah\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-04-08 10:30:16.057 +03:00 [INF] Now listening on: https://localhost:7060
+2025-04-08 10:30:16.059 +03:00 [INF] Now listening on: http://localhost:5062
+2025-04-08 10:30:16.090 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-04-08 10:30:16.092 +03:00 [INF] Hosting environment: Development
+2025-04-08 10:30:16.094 +03:00 [INF] Content root path: C:\Users\AmerAmoorah\Source\Repos\ECommerce\Ecommerce.API\Ecommerce.API
+2025-04-08 10:30:16.626 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/swagger/index.html - null null
+2025-04-08 10:30:16.788 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/swagger/index.html - 200 null text/html;charset=utf-8 165.762ms
+2025-04-08 10:30:16.792 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/_vs/browserLink - null null
+2025-04-08 10:30:16.792 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/_framework/aspnetcore-browser-refresh.js - null null
+2025-04-08 10:30:16.796 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/_framework/aspnetcore-browser-refresh.js - 200 16511 application/javascript; charset=utf-8 4.0431ms
+2025-04-08 10:30:16.823 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/_vs/browserLink - 200 null text/javascript; charset=UTF-8 30.4473ms
+2025-04-08 10:30:16.867 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/swagger/v1/swagger.json - null null
+2025-04-08 10:30:16.884 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 17.7714ms
+2025-04-08 10:30:20.692 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/api/Test/TestAuth - null null
+2025-04-08 10:30:20.769 +03:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-04-08 10:30:21.089 +03:00 [INF] AuthenticationScheme: OpenIdConnect was challenged.
+2025-04-08 10:30:21.090 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/api/Test/TestAuth - 302 0 null 398.3957ms
+2025-04-08 10:30:52.198 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/swagger/oauth2-redirect.html?code=CBF36626B98ADBBB652B55F0D1689F6A71C796B12B679E3D7102435EF3B5CDF9-1&scope=openid%20profile%20email%20ecommerceapi&state=VHVlIEFwciAwOCAyMDI1IDEwOjMwOjQ0IEdNVCswMzAwIChHTVQrMDM6MDAp&session_state=Cc7HjhILjNo8gsWWR2apCMfKyPe4BJ3uWVxW28QlhJ8.EE8A867F2201C0DFCBC17B8D0AD96175&iss=https%3A%2F%2Flocalhost%3A7110 - null null
+2025-04-08 10:30:52.210 +03:00 [INF] Sending file. Request path: '/oauth2-redirect.html'. Physical path: 'N/A'
+2025-04-08 10:30:52.210 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/swagger/oauth2-redirect.html?code=CBF36626B98ADBBB652B55F0D1689F6A71C796B12B679E3D7102435EF3B5CDF9-1&scope=openid%20profile%20email%20ecommerceapi&state=VHVlIEFwciAwOCAyMDI1IDEwOjMwOjQ0IEdNVCswMzAwIChHTVQrMDM6MDAp&session_state=Cc7HjhILjNo8gsWWR2apCMfKyPe4BJ3uWVxW28QlhJ8.EE8A867F2201C0DFCBC17B8D0AD96175&iss=https%3A%2F%2Flocalhost%3A7110 - 200 null text/html 12.163ms
+2025-04-08 10:30:52.217 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/_vs/browserLink - null null
+2025-04-08 10:30:52.217 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/_framework/aspnetcore-browser-refresh.js - null null
+2025-04-08 10:30:52.218 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/_framework/aspnetcore-browser-refresh.js - 200 16511 application/javascript; charset=utf-8 2.0981ms
+2025-04-08 10:30:52.244 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/_vs/browserLink - 200 null text/javascript; charset=UTF-8 27.5976ms
+2025-04-08 10:31:01.122 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/api/Test/TestAuth - null null
+2025-04-08 10:31:01.130 +03:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-04-08 10:31:01.133 +03:00 [INF] AuthenticationScheme: OpenIdConnect was challenged.
+2025-04-08 10:31:01.134 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/api/Test/TestAuth - 302 0 null 11.9872ms
+2025-04-08 10:55:38.775 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7060/api/Test/TestAuth - null null
+2025-04-08 10:55:38.778 +03:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-04-08 10:55:38.779 +03:00 [INF] AuthenticationScheme: OpenIdConnect was challenged.
+2025-04-08 10:55:38.781 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7060/api/Test/TestAuth - 302 0 null 7.1639ms
+2025-04-08 10:56:00.600 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7060/api/Test/TestAuth - null null
+2025-04-08 10:56:00.601 +03:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-04-08 10:56:00.602 +03:00 [INF] AuthenticationScheme: OpenIdConnect was challenged.
+2025-04-08 10:56:00.602 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7060/api/Test/TestAuth - 302 0 null 2.3423ms
+2025-04-08 10:56:11.935 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7060/api/Test/TestAuth - null null
+2025-04-08 10:56:11.938 +03:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-04-08 10:56:11.938 +03:00 [INF] AuthenticationScheme: OpenIdConnect was challenged.
+2025-04-08 10:56:11.939 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7060/api/Test/TestAuth - 302 0 null 4.1098ms
+2025-04-08 10:56:18.171 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7060/api/Test/TestAuth - null null
+2025-04-08 10:56:18.171 +03:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-04-08 10:56:18.172 +03:00 [INF] AuthenticationScheme: OpenIdConnect was challenged.
+2025-04-08 10:56:18.172 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7060/api/Test/TestAuth - 302 0 null 1.9614ms
+2025-04-08 10:56:25.236 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7060/api/Test/TestAuth - null null
+2025-04-08 10:56:25.237 +03:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-04-08 10:56:25.238 +03:00 [INF] AuthenticationScheme: OpenIdConnect was challenged.
+2025-04-08 10:56:25.238 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7060/api/Test/TestAuth - 302 0 null 1.8049ms
+2025-04-08 10:59:50.773 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7060/api/Test/TestAuth - null null
+2025-04-08 10:59:50.785 +03:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-04-08 10:59:50.799 +03:00 [INF] AuthenticationScheme: OpenIdConnect was challenged.
+2025-04-08 10:59:50.799 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7060/api/Test/TestAuth - 302 0 null 32.71ms
+2025-04-08 11:01:50.635 +03:00 [INF] User profile is available. Using 'C:\Users\AmerAmoorah\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-04-08 11:01:50.862 +03:00 [INF] Now listening on: https://localhost:7060
+2025-04-08 11:01:50.864 +03:00 [INF] Now listening on: http://localhost:5062
+2025-04-08 11:01:50.893 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-04-08 11:01:50.895 +03:00 [INF] Hosting environment: Development
+2025-04-08 11:01:50.896 +03:00 [INF] Content root path: C:\Users\AmerAmoorah\Source\Repos\ECommerce\Ecommerce.API\Ecommerce.API
+2025-04-08 11:01:51.342 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/swagger/index.html - null null
+2025-04-08 11:01:51.502 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/swagger/index.html - 200 null text/html;charset=utf-8 163.1892ms
+2025-04-08 11:01:51.507 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/_framework/aspnetcore-browser-refresh.js - null null
+2025-04-08 11:01:51.507 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/_vs/browserLink - null null
+2025-04-08 11:01:51.512 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/_framework/aspnetcore-browser-refresh.js - 200 16511 application/javascript; charset=utf-8 4.8152ms
+2025-04-08 11:01:51.538 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/_vs/browserLink - 200 null text/javascript; charset=UTF-8 30.9601ms
+2025-04-08 11:01:51.579 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/swagger/v1/swagger.json - null null
+2025-04-08 11:01:51.592 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 13.0693ms
+2025-04-08 11:01:54.147 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7060/api/Test/TestAuth - null null
+2025-04-08 11:01:54.221 +03:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-04-08 11:01:54.365 +03:00 [INF] AuthenticationScheme: OpenIdConnect was challenged.
+2025-04-08 11:01:54.367 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7060/api/Test/TestAuth - 302 0 null 220.7723ms
+2025-04-08 11:01:55.422 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7060/api/Test/TestAuth - null null
+2025-04-08 11:01:55.425 +03:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-04-08 11:01:55.426 +03:00 [INF] AuthenticationScheme: OpenIdConnect was challenged.
+2025-04-08 11:01:55.426 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7060/api/Test/TestAuth - 302 0 null 4.0982ms
+2025-04-08 11:02:48.511 +03:00 [INF] User profile is available. Using 'C:\Users\AmerAmoorah\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-04-08 11:02:48.719 +03:00 [INF] Now listening on: https://localhost:7060
+2025-04-08 11:02:48.721 +03:00 [INF] Now listening on: http://localhost:5062
+2025-04-08 11:02:48.751 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-04-08 11:02:48.753 +03:00 [INF] Hosting environment: Development
+2025-04-08 11:02:48.754 +03:00 [INF] Content root path: C:\Users\AmerAmoorah\Source\Repos\ECommerce\Ecommerce.API\Ecommerce.API
+2025-04-08 11:02:49.355 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/swagger/index.html - null null
+2025-04-08 11:02:49.538 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/swagger/index.html - 200 null text/html;charset=utf-8 186.5807ms
+2025-04-08 11:02:49.543 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/_vs/browserLink - null null
+2025-04-08 11:02:49.543 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/_framework/aspnetcore-browser-refresh.js - null null
+2025-04-08 11:02:49.548 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/_framework/aspnetcore-browser-refresh.js - 200 16511 application/javascript; charset=utf-8 5.7217ms
+2025-04-08 11:02:49.573 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/_vs/browserLink - 200 null text/javascript; charset=UTF-8 30.2664ms
+2025-04-08 11:02:49.618 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/swagger/v1/swagger.json - null null
+2025-04-08 11:02:49.672 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Ambiguous HTTP method for action - Ecommerce.API.Controller.Test1Controller.TestAuth (Ecommerce.API). Actions require an explicit HttpMethod binding for Swagger/OpenAPI 3.0
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerDocumentWithoutFilters(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerAsync(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-04-08 11:02:49.675 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/swagger/v1/swagger.json - 500 null text/plain; charset=utf-8 56.7239ms
+2025-04-08 11:03:09.976 +03:00 [INF] User profile is available. Using 'C:\Users\AmerAmoorah\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-04-08 11:03:10.216 +03:00 [INF] Now listening on: https://localhost:7060
+2025-04-08 11:03:10.218 +03:00 [INF] Now listening on: http://localhost:5062
+2025-04-08 11:03:10.249 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-04-08 11:03:10.251 +03:00 [INF] Hosting environment: Development
+2025-04-08 11:03:10.253 +03:00 [INF] Content root path: C:\Users\AmerAmoorah\Source\Repos\ECommerce\Ecommerce.API\Ecommerce.API
+2025-04-08 11:03:10.586 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/swagger/index.html - null null
+2025-04-08 11:03:10.747 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/swagger/index.html - 200 null text/html;charset=utf-8 164.38ms
+2025-04-08 11:03:10.752 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/_framework/aspnetcore-browser-refresh.js - null null
+2025-04-08 11:03:10.752 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/_vs/browserLink - null null
+2025-04-08 11:03:10.757 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/_framework/aspnetcore-browser-refresh.js - 200 16511 application/javascript; charset=utf-8 5.0922ms
+2025-04-08 11:03:10.784 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/_vs/browserLink - 200 null text/javascript; charset=UTF-8 32.0477ms
+2025-04-08 11:03:10.831 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/swagger/v1/swagger.json - null null
+2025-04-08 11:03:10.844 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 13.6966ms
+2025-04-08 11:03:18.931 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/api/Test1 - null null
+2025-04-08 11:03:19.030 +03:00 [INF] Executing endpoint 'Ecommerce.API.Controller.Test1Controller.TestAuth (Ecommerce.API)'
+2025-04-08 11:03:19.045 +03:00 [INF] Route matched with {action = "TestAuth", controller = "Test1"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult TestAuth() on controller Ecommerce.API.Controller.Test1Controller (Ecommerce.API).
+2025-04-08 11:03:19.054 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Linq.Enumerable+SelectEnumerableIterator`2[[System.Security.Claims.Claim, System.Security.Claims, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a],[<>f__AnonymousType0`2[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], Ecommerce.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-04-08 11:03:19.064 +03:00 [INF] Executed action Ecommerce.API.Controller.Test1Controller.TestAuth (Ecommerce.API) in 13.2791ms
+2025-04-08 11:03:19.065 +03:00 [INF] Executed endpoint 'Ecommerce.API.Controller.Test1Controller.TestAuth (Ecommerce.API)'
+2025-04-08 11:03:19.065 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/api/Test1 - 200 null application/json; charset=utf-8 134.9005ms
+2025-04-08 11:03:34.339 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7060/api/Test1 - null null
+2025-04-08 11:03:34.341 +03:00 [INF] Executing endpoint 'Ecommerce.API.Controller.Test1Controller.TestAuth (Ecommerce.API)'
+2025-04-08 11:03:34.341 +03:00 [INF] Route matched with {action = "TestAuth", controller = "Test1"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult TestAuth() on controller Ecommerce.API.Controller.Test1Controller (Ecommerce.API).
+2025-04-08 11:03:39.360 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Linq.Enumerable+SelectEnumerableIterator`2[[System.Security.Claims.Claim, System.Security.Claims, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a],[<>f__AnonymousType0`2[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], Ecommerce.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-04-08 11:03:39.363 +03:00 [INF] Executed action Ecommerce.API.Controller.Test1Controller.TestAuth (Ecommerce.API) in 5021.8238ms
+2025-04-08 11:03:39.364 +03:00 [INF] Executed endpoint 'Ecommerce.API.Controller.Test1Controller.TestAuth (Ecommerce.API)'
+2025-04-08 11:03:39.364 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7060/api/Test1 - 200 null application/json; charset=utf-8 5025.3081ms
+2025-04-08 11:04:26.756 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7060/api/Test1 - null null
+2025-04-08 11:04:26.761 +03:00 [INF] Executing endpoint 'Ecommerce.API.Controller.Test1Controller.TestAuth (Ecommerce.API)'
+2025-04-08 11:04:26.761 +03:00 [INF] Route matched with {action = "TestAuth", controller = "Test1"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult TestAuth() on controller Ecommerce.API.Controller.Test1Controller (Ecommerce.API).
+2025-04-08 11:04:57.144 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Linq.Enumerable+SelectEnumerableIterator`2[[System.Security.Claims.Claim, System.Security.Claims, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a],[<>f__AnonymousType0`2[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], Ecommerce.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-04-08 11:04:57.146 +03:00 [INF] Executed action Ecommerce.API.Controller.Test1Controller.TestAuth (Ecommerce.API) in 30384.2705ms
+2025-04-08 11:04:57.146 +03:00 [INF] Executed endpoint 'Ecommerce.API.Controller.Test1Controller.TestAuth (Ecommerce.API)'
+2025-04-08 11:04:57.148 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7060/api/Test1 - 200 null application/json; charset=utf-8 30392.2292ms
+2025-04-08 11:04:58.143 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/swagger/index.html - null null
+2025-04-08 11:04:58.160 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/swagger/index.html - 200 null text/html;charset=utf-8 17.008ms
+2025-04-08 11:04:58.174 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/_framework/aspnetcore-browser-refresh.js - null null
+2025-04-08 11:04:58.174 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/_vs/browserLink - null null
+2025-04-08 11:04:58.175 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/_framework/aspnetcore-browser-refresh.js - 200 16511 application/javascript; charset=utf-8 1.7287ms
+2025-04-08 11:04:58.188 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/_vs/browserLink - 200 null text/javascript; charset=UTF-8 14.4737ms
+2025-04-08 11:04:58.294 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/swagger/v1/swagger.json - null null
+2025-04-08 11:04:58.305 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 10.7929ms
+2025-04-08 11:05:01.818 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7060/api/Test1 - null null
+2025-04-08 11:05:01.822 +03:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-04-08 11:05:01.888 +03:00 [INF] AuthenticationScheme: OpenIdConnect was challenged.
+2025-04-08 11:05:01.889 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7060/api/Test1 - 302 0 null 71.6975ms
+2025-04-08 11:09:08.161 +03:00 [INF] User profile is available. Using 'C:\Users\AmerAmoorah\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-04-08 11:09:08.369 +03:00 [INF] Now listening on: https://localhost:7060
+2025-04-08 11:09:08.371 +03:00 [INF] Now listening on: http://localhost:5062
+2025-04-08 11:09:08.403 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-04-08 11:09:08.404 +03:00 [INF] Hosting environment: Development
+2025-04-08 11:09:08.405 +03:00 [INF] Content root path: C:\Users\AmerAmoorah\Source\Repos\ECommerce\Ecommerce.API\Ecommerce.API
+2025-04-08 11:09:08.798 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/swagger/index.html - null null
+2025-04-08 11:09:08.962 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/swagger/index.html - 200 null text/html;charset=utf-8 168.2824ms
+2025-04-08 11:09:08.967 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/_vs/browserLink - null null
+2025-04-08 11:09:08.967 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/_framework/aspnetcore-browser-refresh.js - null null
+2025-04-08 11:09:08.974 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/_framework/aspnetcore-browser-refresh.js - 200 16511 application/javascript; charset=utf-8 6.7307ms
+2025-04-08 11:09:09.005 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/_vs/browserLink - 200 null text/javascript; charset=UTF-8 38.7755ms
+2025-04-08 11:09:09.061 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/swagger/v1/swagger.json - null null
+2025-04-08 11:09:09.075 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 14.6549ms
+2025-04-08 11:09:13.056 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7060/api/Test1 - null null
+2025-04-08 11:09:13.116 +03:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-04-08 11:09:13.225 +03:00 [INF] AuthenticationScheme: OpenIdConnect was challenged.
+2025-04-08 11:09:13.229 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7060/api/Test1 - 302 0 null 172.95ms
+2025-04-08 11:11:46.551 +03:00 [INF] User profile is available. Using 'C:\Users\AmerAmoorah\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-04-08 11:11:46.767 +03:00 [INF] Now listening on: https://localhost:7060
+2025-04-08 11:11:46.769 +03:00 [INF] Now listening on: http://localhost:5062
+2025-04-08 11:11:46.795 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-04-08 11:11:46.796 +03:00 [INF] Hosting environment: Development
+2025-04-08 11:11:46.797 +03:00 [INF] Content root path: C:\Users\AmerAmoorah\Source\Repos\ECommerce\Ecommerce.API\Ecommerce.API
+2025-04-08 11:11:47.829 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/swagger/index.html - null null
+2025-04-08 11:11:48.111 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/swagger/index.html - 200 null text/html;charset=utf-8 286.0616ms
+2025-04-08 11:11:48.115 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/_framework/aspnetcore-browser-refresh.js - null null
+2025-04-08 11:11:48.115 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/_vs/browserLink - null null
+2025-04-08 11:11:48.121 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/_framework/aspnetcore-browser-refresh.js - 200 16511 application/javascript; charset=utf-8 6.3323ms
+2025-04-08 11:11:48.146 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/_vs/browserLink - 200 null text/javascript; charset=UTF-8 30.8592ms
+2025-04-08 11:11:48.201 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/swagger/v1/swagger.json - null null
+2025-04-08 11:11:48.219 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 18.4403ms
+2025-04-08 11:11:50.699 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7060/api/Test1 - null null
+2025-04-08 11:11:50.837 +03:00 [INF] Executing endpoint 'Ecommerce.API.Controller.Test1Controller.TestAuth (Ecommerce.API)'
+2025-04-08 11:11:50.842 +03:00 [INF] Route matched with {action = "TestAuth", controller = "Test1"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult TestAuth() on controller Ecommerce.API.Controller.Test1Controller (Ecommerce.API).
+2025-04-08 11:11:54.246 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Linq.Enumerable+SelectEnumerableIterator`2[[System.Security.Claims.Claim, System.Security.Claims, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a],[<>f__AnonymousType0`2[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], Ecommerce.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-04-08 11:11:54.261 +03:00 [INF] Executed action Ecommerce.API.Controller.Test1Controller.TestAuth (Ecommerce.API) in 3414.5517ms
+2025-04-08 11:11:54.261 +03:00 [INF] Executed endpoint 'Ecommerce.API.Controller.Test1Controller.TestAuth (Ecommerce.API)'
+2025-04-08 11:11:54.262 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7060/api/Test1 - 200 null application/json; charset=utf-8 3563.9833ms
+2025-04-08 11:12:38.198 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7060/api/Test1 - null null
+2025-04-08 11:12:38.223 +03:00 [INF] Executing endpoint 'Ecommerce.API.Controller.Test1Controller.TestAuth (Ecommerce.API)'
+2025-04-08 11:12:38.223 +03:00 [INF] Route matched with {action = "TestAuth", controller = "Test1"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult TestAuth() on controller Ecommerce.API.Controller.Test1Controller (Ecommerce.API).
+2025-04-08 11:12:40.202 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Linq.Enumerable+SelectEnumerableIterator`2[[System.Security.Claims.Claim, System.Security.Claims, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a],[<>f__AnonymousType0`2[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], Ecommerce.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-04-08 11:12:40.203 +03:00 [INF] Executed action Ecommerce.API.Controller.Test1Controller.TestAuth (Ecommerce.API) in 1979.1505ms
+2025-04-08 11:12:40.203 +03:00 [INF] Executed endpoint 'Ecommerce.API.Controller.Test1Controller.TestAuth (Ecommerce.API)'
+2025-04-08 11:12:40.203 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7060/api/Test1 - 200 null application/json; charset=utf-8 2010.3394ms
