@@ -9,7 +9,7 @@ namespace Ecommerce.API.Controller
     [Authorize]
     public class TestController : ControllerBase
     {
-        [HttpGet]
+        [HttpGet("TestAuth")]
         public int GetNum()
         {
             try
