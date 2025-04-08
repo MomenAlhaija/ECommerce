@@ -1,0 +1,873 @@
+2025-04-06 11:55:07.990 +03:00 [INF] User profile is available. Using 'C:\Users\MomenAbuEl-Haija\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-04-06 11:55:08.233 +03:00 [INF] Now listening on: https://localhost:7060
+2025-04-06 11:55:08.234 +03:00 [INF] Now listening on: http://localhost:5062
+2025-04-06 11:55:08.247 +03:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2025-04-06 11:55:08.275 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-04-06 11:55:08.277 +03:00 [INF] Hosting environment: Development
+2025-04-06 11:55:08.278 +03:00 [INF] Content root path: C:\Users\MomenAbuEl-Haija\source\Workspaces\Workspace2\ECommerce\Ecommerce.API\Ecommerce.API
+2025-04-06 11:55:09.560 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/swagger - null null
+2025-04-06 11:55:09.692 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/swagger - 301 0 null 134.8686ms
+2025-04-06 11:55:09.697 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/swagger/index.html - null null
+2025-04-06 11:55:09.741 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/swagger/index.html - 200 null text/html;charset=utf-8 44.0071ms
+2025-04-06 11:55:09.745 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/swagger/swagger-ui.css - null null
+2025-04-06 11:55:09.745 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/swagger/swagger-ui-standalone-preset.js - null null
+2025-04-06 11:55:09.745 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/swagger/swagger-ui-bundle.js - null null
+2025-04-06 11:55:09.745 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/_framework/aspnetcore-browser-refresh.js - null null
+2025-04-06 11:55:09.745 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/_vs/browserLink - null null
+2025-04-06 11:55:09.775 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/_framework/aspnetcore-browser-refresh.js - 200 16511 application/javascript; charset=utf-8 29.4601ms
+2025-04-06 11:55:09.821 +03:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2025-04-06 11:55:09.821 +03:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2025-04-06 11:55:09.825 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/swagger/swagger-ui-standalone-preset.js - 200 230280 text/javascript 79.8048ms
+2025-04-06 11:55:09.825 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/swagger/swagger-ui.css - 200 152034 text/css 80.1314ms
+2025-04-06 11:55:09.828 +03:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2025-04-06 11:55:09.828 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/swagger/swagger-ui-bundle.js - 200 1456926 text/javascript 83.0889ms
+2025-04-06 11:55:09.847 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/_vs/browserLink - 200 null text/javascript; charset=UTF-8 101.3458ms
+2025-04-06 11:55:09.959 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/swagger/v1/swagger.json - null null
+2025-04-06 11:55:09.972 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 12.9117ms
+2025-04-06 11:55:09.977 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/swagger/favicon-32x32.png - null null
+2025-04-06 11:55:09.977 +03:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2025-04-06 11:55:09.977 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/swagger/favicon-32x32.png - 200 628 image/png 0.7079ms
+2025-04-06 11:55:15.469 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/categories/allCategorys - null null
+2025-04-06 11:55:15.528 +03:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-04-06 11:55:15.620 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: IDX20803: Unable to obtain configuration from: 'https://localhost:7110/.well-known/openid-configuration'. Will retry at '4/6/2025 8:55:15 AM +00:00'. Exception: 'System.IO.IOException: IDX20807: Unable to retrieve document from: '[PII of type 'System.String' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'. HttpResponseMessage: '[PII of type 'System.Net.Http.HttpResponseMessage' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]', HttpResponseMessage.Content: '[PII of type 'System.String' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+   at Microsoft.IdentityModel.Protocols.HttpDocumentRetriever.GetDocumentAsync(String address, CancellationToken cancel)
+   at Microsoft.IdentityModel.Protocols.OpenIdConnect.OpenIdConnectConfigurationRetriever.GetAsync(String address, IDocumentRetriever retriever, CancellationToken cancel)
+   at Microsoft.IdentityModel.Protocols.ConfigurationManager`1.GetConfigurationAsync(CancellationToken cancel)'.
+ ---> System.IO.IOException: IDX20807: Unable to retrieve document from: '[PII of type 'System.String' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'. HttpResponseMessage: '[PII of type 'System.Net.Http.HttpResponseMessage' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]', HttpResponseMessage.Content: '[PII of type 'System.String' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+   at Microsoft.IdentityModel.Protocols.HttpDocumentRetriever.GetDocumentAsync(String address, CancellationToken cancel)
+   at Microsoft.IdentityModel.Protocols.OpenIdConnect.OpenIdConnectConfigurationRetriever.GetAsync(String address, IDocumentRetriever retriever, CancellationToken cancel)
+   at Microsoft.IdentityModel.Protocols.ConfigurationManager`1.GetConfigurationAsync(CancellationToken cancel)
+   --- End of inner exception stack trace ---
+   at Microsoft.IdentityModel.Protocols.ConfigurationManager`1.GetConfigurationAsync(CancellationToken cancel)
+   at Microsoft.AspNetCore.Authentication.OpenIdConnect.OpenIdConnectHandler.HandleChallengeAsyncInternal(AuthenticationProperties properties)
+   at Microsoft.AspNetCore.Authentication.OpenIdConnect.OpenIdConnectHandler.HandleChallengeAsync(AuthenticationProperties properties)
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandler`1.ChallengeAsync(AuthenticationProperties properties)
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.ChallengeAsync(HttpContext context, String scheme, AuthenticationProperties properties)
+   at Microsoft.AspNetCore.Authorization.Policy.AuthorizationMiddlewareResultHandler.<>c__DisplayClass0_0.<<HandleAsync>g__Handle|0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+2025-04-06 11:55:15.683 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/categories/allCategorys - 500 null application/json 214.5222ms
+2025-04-06 12:39:53.923 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/categories/allCategorys - null null
+2025-04-06 12:39:53.926 +03:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-04-06 12:39:59.208 +03:00 [INF] AuthenticationScheme: OpenIdConnect was challenged.
+2025-04-06 12:39:59.208 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/categories/allCategorys - 302 0 null 5285.9221ms
+2025-04-06 13:44:25.599 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/categories/allCategorys - null null
+2025-04-06 13:44:25.608 +03:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-04-06 13:44:25.609 +03:00 [INF] AuthenticationScheme: OpenIdConnect was challenged.
+2025-04-06 13:44:25.609 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/categories/allCategorys - 302 0 null 10.7202ms
+2025-04-06 13:46:33.840 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/categories/allCategorys - null null
+2025-04-06 13:46:33.849 +03:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-04-06 13:46:33.850 +03:00 [INF] AuthenticationScheme: OpenIdConnect was challenged.
+2025-04-06 13:46:33.850 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/categories/allCategorys - 302 0 null 10.3191ms
+2025-04-06 13:46:38.930 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/categories/allCategorys - null null
+2025-04-06 13:46:38.931 +03:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-04-06 13:46:38.931 +03:00 [INF] AuthenticationScheme: OpenIdConnect was challenged.
+2025-04-06 13:46:38.931 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/categories/allCategorys - 302 0 null 1.0972ms
+2025-04-06 13:46:53.460 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/categories/allCategorys - null null
+2025-04-06 13:46:53.461 +03:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-04-06 13:46:53.462 +03:00 [INF] AuthenticationScheme: OpenIdConnect was challenged.
+2025-04-06 13:46:53.462 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/categories/allCategorys - 302 0 null 1.4995ms
+2025-04-06 14:05:26.654 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/categories/allCategorys - null null
+2025-04-06 14:05:26.662 +03:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-04-06 14:05:26.662 +03:00 [INF] AuthenticationScheme: OpenIdConnect was challenged.
+2025-04-06 14:05:26.663 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/categories/allCategorys - 302 0 null 8.3899ms
+2025-04-06 14:06:17.539 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/categories/allCategorys - null null
+2025-04-06 14:06:17.545 +03:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-04-06 14:06:17.545 +03:00 [INF] AuthenticationScheme: OpenIdConnect was challenged.
+2025-04-06 14:06:17.546 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/categories/allCategorys - 302 0 null 6.8475ms
+2025-04-06 14:06:18.345 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/categories/allCategorys - null null
+2025-04-06 14:06:18.345 +03:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-04-06 14:06:18.346 +03:00 [INF] AuthenticationScheme: OpenIdConnect was challenged.
+2025-04-06 14:06:18.346 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/categories/allCategorys - 302 0 null 0.899ms
+2025-04-06 14:06:21.463 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/categories/allCategorys - null null
+2025-04-06 14:06:21.463 +03:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-04-06 14:06:21.463 +03:00 [INF] AuthenticationScheme: OpenIdConnect was challenged.
+2025-04-06 14:06:21.464 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/categories/allCategorys - 302 0 null 0.9301ms
+2025-04-06 15:43:40.285 +03:00 [INF] User profile is available. Using 'C:\Users\MomenAbuEl-Haija\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-04-06 15:43:40.479 +03:00 [INF] Now listening on: https://localhost:7060
+2025-04-06 15:43:40.481 +03:00 [INF] Now listening on: http://localhost:5062
+2025-04-06 15:43:40.498 +03:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2025-04-06 15:43:40.527 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-04-06 15:43:40.529 +03:00 [INF] Hosting environment: Development
+2025-04-06 15:43:40.530 +03:00 [INF] Content root path: C:\Users\MomenAbuEl-Haija\source\Workspaces\Workspace2\ECommerce\Ecommerce.API\Ecommerce.API
+2025-04-06 15:43:40.703 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/swagger - null null
+2025-04-06 15:43:40.808 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/swagger - 301 0 null 106.4089ms
+2025-04-06 15:43:40.814 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/swagger/index.html - null null
+2025-04-06 15:43:40.858 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/swagger/index.html - 200 null text/html;charset=utf-8 43.6935ms
+2025-04-06 15:43:40.861 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/swagger/swagger-ui.css - null null
+2025-04-06 15:43:40.861 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/swagger/swagger-ui-standalone-preset.js - null null
+2025-04-06 15:43:40.861 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/_framework/aspnetcore-browser-refresh.js - null null
+2025-04-06 15:43:40.861 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/swagger/swagger-ui-bundle.js - null null
+2025-04-06 15:43:40.862 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/_vs/browserLink - null null
+2025-04-06 15:43:40.882 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/_framework/aspnetcore-browser-refresh.js - 200 16511 application/javascript; charset=utf-8 20.6158ms
+2025-04-06 15:43:40.913 +03:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2025-04-06 15:43:40.913 +03:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2025-04-06 15:43:40.916 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/swagger/swagger-ui.css - 200 152034 text/css 54.9648ms
+2025-04-06 15:43:40.916 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/swagger/swagger-ui-standalone-preset.js - 200 230280 text/javascript 54.7376ms
+2025-04-06 15:43:40.919 +03:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2025-04-06 15:43:40.919 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/swagger/swagger-ui-bundle.js - 200 1456926 text/javascript 58.007ms
+2025-04-06 15:43:40.933 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/_vs/browserLink - 200 null text/javascript; charset=UTF-8 70.614ms
+2025-04-06 15:43:41.038 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/swagger/v1/swagger.json - null null
+2025-04-06 15:43:41.049 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 10.3309ms
+2025-04-06 15:43:44.167 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/categories/allCategorys - null null
+2025-04-06 15:43:44.208 +03:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-04-06 15:43:44.342 +03:00 [INF] AuthenticationScheme: OpenIdConnect was challenged.
+2025-04-06 15:43:44.343 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/categories/allCategorys - 302 0 null 176.3689ms
+2025-04-06 15:46:56.564 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/categories/allCategorys - null null
+2025-04-06 15:46:56.568 +03:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-04-06 15:46:56.569 +03:00 [INF] AuthenticationScheme: OpenIdConnect was challenged.
+2025-04-06 15:46:56.569 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/categories/allCategorys - 302 0 null 4.6617ms
+2025-04-06 15:53:10.732 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/categories/allCategorys - null null
+2025-04-06 15:53:10.747 +03:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-04-06 15:53:10.748 +03:00 [INF] AuthenticationScheme: OpenIdConnect was challenged.
+2025-04-06 15:53:10.748 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/categories/allCategorys - 302 0 null 15.9769ms
+2025-04-06 15:54:24.506 +03:00 [INF] User profile is available. Using 'C:\Users\MomenAbuEl-Haija\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-04-06 15:54:24.767 +03:00 [INF] Now listening on: https://localhost:7060
+2025-04-06 15:54:24.769 +03:00 [INF] Now listening on: http://localhost:5062
+2025-04-06 15:54:24.780 +03:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2025-04-06 15:54:24.807 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-04-06 15:54:24.808 +03:00 [INF] Hosting environment: Development
+2025-04-06 15:54:24.809 +03:00 [INF] Content root path: C:\Users\MomenAbuEl-Haija\source\Workspaces\Workspace2\ECommerce\Ecommerce.API\Ecommerce.API
+2025-04-06 15:54:25.308 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/swagger/index.html - null null
+2025-04-06 15:54:25.468 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/swagger/index.html - 200 null text/html;charset=utf-8 160.8299ms
+2025-04-06 15:54:25.473 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/_framework/aspnetcore-browser-refresh.js - null null
+2025-04-06 15:54:25.473 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/_vs/browserLink - null null
+2025-04-06 15:54:25.477 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/_framework/aspnetcore-browser-refresh.js - 200 16511 application/javascript; charset=utf-8 4.7309ms
+2025-04-06 15:54:25.506 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/_vs/browserLink - 200 null text/javascript; charset=UTF-8 32.5231ms
+2025-04-06 15:54:25.630 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/swagger/v1/swagger.json - null null
+2025-04-06 15:54:25.642 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 12.5173ms
+2025-04-06 15:54:30.134 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/categories/allCategorys - null null
+2025-04-06 15:54:30.169 +03:00 [INF] Executing endpoint 'HTTP: GET /categories/allCategorys'
+2025-04-06 15:54:33.972 +03:00 [WRN] No store type was specified for the decimal property 'Payment' on entity type 'Order'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-04-06 15:54:33.974 +03:00 [WRN] No store type was specified for the decimal property 'Price' on entity type 'OrderItem'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-04-06 15:54:33.975 +03:00 [WRN] No store type was specified for the decimal property 'Price' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-04-06 15:54:34.458 +03:00 [INF] Executed DbCommand (41ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[Id], [c].[Description], [c].[Name]
+FROM [Categories] AS [c]
+2025-04-06 15:54:34.562 +03:00 [INF] Executed endpoint 'HTTP: GET /categories/allCategorys'
+2025-04-06 15:54:34.568 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/categories/allCategorys - 200 null application/json; charset=utf-8 4433.8804ms
+2025-04-06 15:57:21.918 +03:00 [INF] User profile is available. Using 'C:\Users\MomenAbuEl-Haija\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-04-06 15:57:22.131 +03:00 [INF] Now listening on: https://localhost:7060
+2025-04-06 15:57:22.132 +03:00 [INF] Now listening on: http://localhost:5062
+2025-04-06 15:57:22.142 +03:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2025-04-06 15:57:22.163 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-04-06 15:57:22.164 +03:00 [INF] Hosting environment: Development
+2025-04-06 15:57:22.193 +03:00 [INF] Content root path: C:\Users\MomenAbuEl-Haija\source\Workspaces\Workspace2\ECommerce\Ecommerce.API\Ecommerce.API
+2025-04-06 15:57:22.905 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/swagger/index.html - null null
+2025-04-06 15:57:23.060 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/swagger/index.html - 200 null text/html;charset=utf-8 156.7452ms
+2025-04-06 15:57:23.063 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/_framework/aspnetcore-browser-refresh.js - null null
+2025-04-06 15:57:23.063 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/_vs/browserLink - null null
+2025-04-06 15:57:23.068 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/_framework/aspnetcore-browser-refresh.js - 200 16511 application/javascript; charset=utf-8 4.656ms
+2025-04-06 15:57:23.091 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/_vs/browserLink - 200 null text/javascript; charset=UTF-8 27.5361ms
+2025-04-06 15:57:23.129 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/swagger/v1/swagger.json - null null
+2025-04-06 15:57:23.143 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 13.5274ms
+2025-04-06 15:57:31.789 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/categories/allCategorys - null null
+2025-04-06 15:57:31.826 +03:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-04-06 15:57:31.954 +03:00 [INF] AuthenticationScheme: OpenIdConnect was challenged.
+2025-04-06 15:57:31.955 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/categories/allCategorys - 302 0 null 166.0687ms
+2025-04-06 16:01:07.559 +03:00 [INF] User profile is available. Using 'C:\Users\MomenAbuEl-Haija\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-04-06 16:01:07.711 +03:00 [FTL] Application startup exception
+System.InvalidOperationException: Scheme already exists: Cookies
+   at Microsoft.AspNetCore.Authentication.AuthenticationOptions.AddScheme(String name, Action`1 configureBuilder)
+   at Microsoft.Extensions.Options.OptionsFactory`1.Create(String name)
+   at Microsoft.Extensions.Options.UnnamedOptionsManager`1.get_Value()
+   at Microsoft.AspNetCore.Authentication.AuthenticationSchemeProvider..ctor(IOptions`1 options, IDictionary`2 schemes)
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)
+   at System.Reflection.MethodBaseInvoker.InvokeDirectByRefWithFewArgs(Object obj, Span`1 copyOfArgs, BindingFlags invokeAttr)
+   at System.Reflection.MethodBaseInvoker.InvokeWithOneArg(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimeConstructorInfo.Invoke(BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitRootCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.CreateServiceAccessor(ServiceIdentifier serviceIdentifier)
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(ServiceIdentifier serviceIdentifier, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(Type serviceType)
+   at Microsoft.Extensions.Internal.ActivatorUtilities.ConstructorMatcher.CreateInstance(IServiceProvider provider)
+   at Microsoft.Extensions.Internal.ActivatorUtilities.CreateInstance(IServiceProvider provider, Type instanceType, Object[] parameters)
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.ReflectionMiddlewareBinder.CreateMiddleware(RequestDelegate next)
+   at Microsoft.AspNetCore.Builder.ApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Builder.ApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)
+2025-04-06 16:01:07.717 +03:00 [ERR] Hosting failed to start
+System.InvalidOperationException: Scheme already exists: Cookies
+   at Microsoft.AspNetCore.Authentication.AuthenticationOptions.AddScheme(String name, Action`1 configureBuilder)
+   at Microsoft.Extensions.Options.OptionsFactory`1.Create(String name)
+   at Microsoft.Extensions.Options.UnnamedOptionsManager`1.get_Value()
+   at Microsoft.AspNetCore.Authentication.AuthenticationSchemeProvider..ctor(IOptions`1 options, IDictionary`2 schemes)
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)
+   at System.Reflection.MethodBaseInvoker.InvokeDirectByRefWithFewArgs(Object obj, Span`1 copyOfArgs, BindingFlags invokeAttr)
+   at System.Reflection.MethodBaseInvoker.InvokeWithOneArg(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimeConstructorInfo.Invoke(BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitRootCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.CreateServiceAccessor(ServiceIdentifier serviceIdentifier)
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(ServiceIdentifier serviceIdentifier, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(Type serviceType)
+   at Microsoft.Extensions.Internal.ActivatorUtilities.ConstructorMatcher.CreateInstance(IServiceProvider provider)
+   at Microsoft.Extensions.Internal.ActivatorUtilities.CreateInstance(IServiceProvider provider, Type instanceType, Object[] parameters)
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.ReflectionMiddlewareBinder.CreateMiddleware(RequestDelegate next)
+   at Microsoft.AspNetCore.Builder.ApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Builder.ApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.Internal.Host.<StartAsync>b__15_1(IHostedService service, CancellationToken token)
+   at Microsoft.Extensions.Hosting.Internal.Host.ForeachService[T](IEnumerable`1 services, CancellationToken token, Boolean concurrent, Boolean abortOnFirstException, List`1 exceptions, Func`3 operation)
+2025-04-06 16:01:20.794 +03:00 [INF] User profile is available. Using 'C:\Users\MomenAbuEl-Haija\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-04-06 16:01:20.969 +03:00 [FTL] Application startup exception
+System.InvalidOperationException: Scheme already exists: Cookies
+   at Microsoft.AspNetCore.Authentication.AuthenticationOptions.AddScheme(String name, Action`1 configureBuilder)
+   at Microsoft.Extensions.Options.OptionsFactory`1.Create(String name)
+   at Microsoft.Extensions.Options.UnnamedOptionsManager`1.get_Value()
+   at Microsoft.AspNetCore.Authentication.AuthenticationSchemeProvider..ctor(IOptions`1 options, IDictionary`2 schemes)
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)
+   at System.Reflection.MethodBaseInvoker.InvokeDirectByRefWithFewArgs(Object obj, Span`1 copyOfArgs, BindingFlags invokeAttr)
+   at System.Reflection.MethodBaseInvoker.InvokeWithOneArg(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimeConstructorInfo.Invoke(BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitRootCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.CreateServiceAccessor(ServiceIdentifier serviceIdentifier)
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(ServiceIdentifier serviceIdentifier, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(Type serviceType)
+   at Microsoft.Extensions.Internal.ActivatorUtilities.ConstructorMatcher.CreateInstance(IServiceProvider provider)
+   at Microsoft.Extensions.Internal.ActivatorUtilities.CreateInstance(IServiceProvider provider, Type instanceType, Object[] parameters)
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.ReflectionMiddlewareBinder.CreateMiddleware(RequestDelegate next)
+   at Microsoft.AspNetCore.Builder.ApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Builder.ApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)
+2025-04-06 16:01:20.975 +03:00 [ERR] Hosting failed to start
+System.InvalidOperationException: Scheme already exists: Cookies
+   at Microsoft.AspNetCore.Authentication.AuthenticationOptions.AddScheme(String name, Action`1 configureBuilder)
+   at Microsoft.Extensions.Options.OptionsFactory`1.Create(String name)
+   at Microsoft.Extensions.Options.UnnamedOptionsManager`1.get_Value()
+   at Microsoft.AspNetCore.Authentication.AuthenticationSchemeProvider..ctor(IOptions`1 options, IDictionary`2 schemes)
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)
+   at System.Reflection.MethodBaseInvoker.InvokeDirectByRefWithFewArgs(Object obj, Span`1 copyOfArgs, BindingFlags invokeAttr)
+   at System.Reflection.MethodBaseInvoker.InvokeWithOneArg(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimeConstructorInfo.Invoke(BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitRootCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.CreateServiceAccessor(ServiceIdentifier serviceIdentifier)
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(ServiceIdentifier serviceIdentifier, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(Type serviceType)
+   at Microsoft.Extensions.Internal.ActivatorUtilities.ConstructorMatcher.CreateInstance(IServiceProvider provider)
+   at Microsoft.Extensions.Internal.ActivatorUtilities.CreateInstance(IServiceProvider provider, Type instanceType, Object[] parameters)
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.ReflectionMiddlewareBinder.CreateMiddleware(RequestDelegate next)
+   at Microsoft.AspNetCore.Builder.ApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Builder.ApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.Internal.Host.<StartAsync>b__15_1(IHostedService service, CancellationToken token)
+   at Microsoft.Extensions.Hosting.Internal.Host.ForeachService[T](IEnumerable`1 services, CancellationToken token, Boolean concurrent, Boolean abortOnFirstException, List`1 exceptions, Func`3 operation)
+2025-04-06 16:02:41.539 +03:00 [INF] User profile is available. Using 'C:\Users\MomenAbuEl-Haija\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-04-06 16:02:41.772 +03:00 [INF] Now listening on: https://localhost:7060
+2025-04-06 16:02:41.774 +03:00 [INF] Now listening on: http://localhost:5062
+2025-04-06 16:02:41.785 +03:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2025-04-06 16:02:41.808 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-04-06 16:02:41.809 +03:00 [INF] Hosting environment: Development
+2025-04-06 16:02:41.811 +03:00 [INF] Content root path: C:\Users\MomenAbuEl-Haija\source\Workspaces\Workspace2\ECommerce\Ecommerce.API\Ecommerce.API
+2025-04-06 16:02:42.328 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/swagger/index.html - null null
+2025-04-06 16:02:42.477 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/swagger/index.html - 200 null text/html;charset=utf-8 149.4348ms
+2025-04-06 16:02:42.479 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/_framework/aspnetcore-browser-refresh.js - null null
+2025-04-06 16:02:42.479 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/_vs/browserLink - null null
+2025-04-06 16:02:42.485 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/_framework/aspnetcore-browser-refresh.js - 200 16511 application/javascript; charset=utf-8 5.7753ms
+2025-04-06 16:02:42.512 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/_vs/browserLink - 200 null text/javascript; charset=UTF-8 33.3274ms
+2025-04-06 16:02:42.546 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/swagger/v1/swagger.json - null null
+2025-04-06 16:02:42.558 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 11.6933ms
+2025-04-06 16:02:46.451 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/categories/allCategorys - null null
+2025-04-06 16:02:46.490 +03:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-04-06 16:02:46.548 +03:00 [INF] AuthenticationScheme: OpenIdConnect was challenged.
+2025-04-06 16:02:46.549 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/categories/allCategorys - 302 0 null 98.2498ms
+2025-04-06 16:03:07.753 +03:00 [INF] User profile is available. Using 'C:\Users\MomenAbuEl-Haija\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-04-06 16:03:07.958 +03:00 [INF] Now listening on: https://localhost:7060
+2025-04-06 16:03:07.960 +03:00 [INF] Now listening on: http://localhost:5062
+2025-04-06 16:03:07.970 +03:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2025-04-06 16:03:07.991 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-04-06 16:03:07.993 +03:00 [INF] Hosting environment: Development
+2025-04-06 16:03:07.994 +03:00 [INF] Content root path: C:\Users\MomenAbuEl-Haija\source\Workspaces\Workspace2\ECommerce\Ecommerce.API\Ecommerce.API
+2025-04-06 16:03:08.464 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/swagger/index.html - null null
+2025-04-06 16:03:08.619 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/swagger/index.html - 200 null text/html;charset=utf-8 154.9083ms
+2025-04-06 16:03:08.624 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/_framework/aspnetcore-browser-refresh.js - null null
+2025-04-06 16:03:08.624 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/_vs/browserLink - null null
+2025-04-06 16:03:08.628 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/_framework/aspnetcore-browser-refresh.js - 200 16511 application/javascript; charset=utf-8 4.1327ms
+2025-04-06 16:03:08.655 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/_vs/browserLink - 200 null text/javascript; charset=UTF-8 31.378ms
+2025-04-06 16:03:08.689 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/swagger/v1/swagger.json - null null
+2025-04-06 16:03:08.702 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 13.5927ms
+2025-04-06 16:03:12.031 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/categories/allCategorys - null null
+2025-04-06 16:03:12.044 +03:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-04-06 16:03:12.045 +03:00 [INF] AuthenticationScheme: Cookies was challenged.
+2025-04-06 16:03:12.046 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/categories/allCategorys - 302 0 null 14.619ms
+2025-04-06 16:03:12.048 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/Account/Login?ReturnUrl=%2Fcategories%2FallCategorys - null null
+2025-04-06 16:03:12.052 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/Account/Login?ReturnUrl=%2Fcategories%2FallCategorys - 404 0 null 3.0751ms
+2025-04-06 16:03:12.054 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7060/Account/Login, Response status code: 404
+2025-04-06 16:04:33.849 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/categories/allCategorys - null null
+2025-04-06 16:04:33.858 +03:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-04-06 16:04:33.858 +03:00 [INF] AuthenticationScheme: Cookies was challenged.
+2025-04-06 16:04:33.858 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/categories/allCategorys - 302 0 null 9.5856ms
+2025-04-06 16:04:33.862 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/Account/Login?ReturnUrl=%2Fcategories%2FallCategorys - null null
+2025-04-06 16:04:33.862 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/Account/Login?ReturnUrl=%2Fcategories%2FallCategorys - 404 0 null 0.7025ms
+2025-04-06 16:04:33.862 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7060/Account/Login, Response status code: 404
+2025-04-06 16:06:49.980 +03:00 [INF] User profile is available. Using 'C:\Users\MomenAbuEl-Haija\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-04-06 16:06:50.171 +03:00 [INF] Now listening on: https://localhost:7060
+2025-04-06 16:06:50.174 +03:00 [INF] Now listening on: http://localhost:5062
+2025-04-06 16:06:50.184 +03:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2025-04-06 16:06:50.206 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-04-06 16:06:50.207 +03:00 [INF] Hosting environment: Development
+2025-04-06 16:06:50.208 +03:00 [INF] Content root path: C:\Users\MomenAbuEl-Haija\source\Workspaces\Workspace2\ECommerce\Ecommerce.API\Ecommerce.API
+2025-04-06 16:06:50.756 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/swagger/index.html - null null
+2025-04-06 16:06:50.907 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/swagger/index.html - 200 null text/html;charset=utf-8 151.5692ms
+2025-04-06 16:06:50.911 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/_framework/aspnetcore-browser-refresh.js - null null
+2025-04-06 16:06:50.911 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/_vs/browserLink - null null
+2025-04-06 16:06:50.916 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/_framework/aspnetcore-browser-refresh.js - 200 16511 application/javascript; charset=utf-8 4.4943ms
+2025-04-06 16:06:50.946 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/_vs/browserLink - 200 null text/javascript; charset=UTF-8 34.5849ms
+2025-04-06 16:06:50.982 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/swagger/v1/swagger.json - null null
+2025-04-06 16:06:50.993 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 10.9073ms
+2025-04-06 16:07:10.481 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/categories/allCategorys - null null
+2025-04-06 16:07:10.519 +03:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-04-06 16:07:10.577 +03:00 [INF] AuthenticationScheme: OpenIdConnect was challenged.
+2025-04-06 16:07:10.579 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/categories/allCategorys - 302 0 null 98.0471ms
+2025-04-06 16:07:12.497 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/categories/allCategorys - null null
+2025-04-06 16:07:12.505 +03:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-04-06 16:07:12.506 +03:00 [INF] AuthenticationScheme: OpenIdConnect was challenged.
+2025-04-06 16:07:12.506 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/categories/allCategorys - 302 0 null 9.3019ms
+2025-04-06 16:10:34.049 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/categories/allCategorys - null null
+2025-04-06 16:10:34.051 +03:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-04-06 16:10:34.052 +03:00 [INF] AuthenticationScheme: OpenIdConnect was challenged.
+2025-04-06 16:10:34.052 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/categories/allCategorys - 302 0 null 2.3315ms
+2025-04-06 16:10:57.499 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/categories/allCategorys - null null
+2025-04-06 16:10:57.506 +03:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-04-06 16:10:57.509 +03:00 [INF] AuthenticationScheme: OpenIdConnect was challenged.
+2025-04-06 16:10:57.510 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/categories/allCategorys - 302 0 null 10.4142ms
+2025-04-06 16:11:07.027 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/categories/allCategorys - null null
+2025-04-06 16:11:07.028 +03:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-04-06 16:11:07.029 +03:00 [INF] AuthenticationScheme: OpenIdConnect was challenged.
+2025-04-06 16:11:07.030 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/categories/allCategorys - 302 0 null 3.026ms
+2025-04-06 16:11:31.021 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/categories/allCategorys - null null
+2025-04-06 16:11:31.030 +03:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-04-06 16:11:31.031 +03:00 [INF] AuthenticationScheme: OpenIdConnect was challenged.
+2025-04-06 16:11:31.031 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/categories/allCategorys - 302 0 null 10.4338ms
+2025-04-06 16:12:21.941 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/categories/allCategorys - null null
+2025-04-06 16:12:21.983 +03:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-04-06 16:12:21.983 +03:00 [INF] AuthenticationScheme: OpenIdConnect was challenged.
+2025-04-06 16:12:21.984 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/categories/allCategorys - 302 0 null 42.7684ms
+2025-04-06 16:13:06.713 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/categories/allCategorys - null null
+2025-04-06 16:13:06.745 +03:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-04-06 16:13:06.749 +03:00 [INF] AuthenticationScheme: OpenIdConnect was challenged.
+2025-04-06 16:13:06.749 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/categories/allCategorys - 302 0 null 36.5871ms
+2025-04-06 16:20:38.136 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/categories/allCategorys - null null
+2025-04-06 16:20:38.174 +03:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-04-06 16:20:38.174 +03:00 [INF] AuthenticationScheme: OpenIdConnect was challenged.
+2025-04-06 16:20:38.174 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/categories/allCategorys - 302 0 null 38.4218ms
+2025-04-06 16:20:39.384 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/categories/allCategorys - null null
+2025-04-06 16:20:39.384 +03:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-04-06 16:20:39.385 +03:00 [INF] AuthenticationScheme: OpenIdConnect was challenged.
+2025-04-06 16:20:39.385 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/categories/allCategorys - 302 0 null 1.0569ms
+2025-04-06 16:20:42.171 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/categories/allCategorys - null null
+2025-04-06 16:20:42.171 +03:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-04-06 16:20:42.172 +03:00 [INF] AuthenticationScheme: OpenIdConnect was challenged.
+2025-04-06 16:20:42.172 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/categories/allCategorys - 302 0 null 1.1154ms
+2025-04-06 16:20:50.931 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/categories/allCategorys - null null
+2025-04-06 16:20:50.932 +03:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-04-06 16:20:50.932 +03:00 [INF] AuthenticationScheme: OpenIdConnect was challenged.
+2025-04-06 16:20:50.932 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/categories/allCategorys - 302 0 null 1.0836ms
+2025-04-06 16:21:17.284 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/categories/allCategorys - null null
+2025-04-06 16:21:17.291 +03:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-04-06 16:21:17.292 +03:00 [INF] AuthenticationScheme: OpenIdConnect was challenged.
+2025-04-06 16:21:17.293 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/categories/allCategorys - 302 0 null 8.6315ms
+2025-04-06 16:21:31.992 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/categories/allCategorys - null null
+2025-04-06 16:21:31.993 +03:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-04-06 16:21:31.993 +03:00 [INF] AuthenticationScheme: OpenIdConnect was challenged.
+2025-04-06 16:21:31.993 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/categories/allCategorys - 302 0 null 0.9903ms
+2025-04-06 16:26:45.186 +03:00 [INF] User profile is available. Using 'C:\Users\MomenAbuEl-Haija\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-04-06 16:26:45.444 +03:00 [INF] Now listening on: https://localhost:7060
+2025-04-06 16:26:45.446 +03:00 [INF] Now listening on: http://localhost:5062
+2025-04-06 16:26:45.461 +03:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2025-04-06 16:26:45.500 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-04-06 16:26:45.505 +03:00 [INF] Hosting environment: Development
+2025-04-06 16:26:45.512 +03:00 [INF] Content root path: C:\Users\MomenAbuEl-Haija\source\Workspaces\Workspace2\ECommerce\Ecommerce.API\Ecommerce.API
+2025-04-06 16:26:45.714 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/swagger/index.html - null null
+2025-04-06 16:26:45.869 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/swagger/index.html - 200 null text/html;charset=utf-8 157.1117ms
+2025-04-06 16:26:45.871 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/_framework/aspnetcore-browser-refresh.js - null null
+2025-04-06 16:26:45.871 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/_vs/browserLink - null null
+2025-04-06 16:26:45.878 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/_framework/aspnetcore-browser-refresh.js - 200 16511 application/javascript; charset=utf-8 6.356ms
+2025-04-06 16:26:45.906 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/_vs/browserLink - 200 null text/javascript; charset=UTF-8 34.1512ms
+2025-04-06 16:26:45.938 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/swagger/v1/swagger.json - null null
+2025-04-06 16:26:45.949 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 11.157ms
+2025-04-06 16:26:57.422 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/categories/allCategorys - null null
+2025-04-06 16:26:57.461 +03:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-04-06 16:26:57.613 +03:00 [INF] AuthenticationScheme: OpenIdConnect was challenged.
+2025-04-06 16:26:57.615 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/categories/allCategorys - 302 0 null 192.5281ms
+2025-04-06 16:27:50.621 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/categories/allCategorys - null null
+2025-04-06 16:27:50.630 +03:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-04-06 16:27:50.630 +03:00 [INF] AuthenticationScheme: OpenIdConnect was challenged.
+2025-04-06 16:27:50.631 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/categories/allCategorys - 302 0 null 10.0624ms
+2025-04-06 16:28:23.551 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/categories/allCategorys - null null
+2025-04-06 16:28:23.559 +03:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-04-06 16:28:23.561 +03:00 [INF] AuthenticationScheme: OpenIdConnect was challenged.
+2025-04-06 16:28:23.561 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/categories/allCategorys - 302 0 null 10.5124ms
+2025-04-06 16:31:14.230 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/swagger/index.html - null null
+2025-04-06 16:31:14.253 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/swagger/index.html - 200 null text/html;charset=utf-8 22.8864ms
+2025-04-06 16:31:14.257 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/_framework/aspnetcore-browser-refresh.js - null null
+2025-04-06 16:31:14.258 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/_framework/aspnetcore-browser-refresh.js - 200 16511 application/javascript; charset=utf-8 1.0536ms
+2025-04-06 16:31:14.261 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/_vs/browserLink - null null
+2025-04-06 16:31:14.275 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/_vs/browserLink - 200 null text/javascript; charset=UTF-8 14.1185ms
+2025-04-06 16:31:14.315 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/swagger/v1/swagger.json - null null
+2025-04-06 16:31:14.320 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/swagger/favicon-32x32.png - null null
+2025-04-06 16:31:14.322 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 6.6324ms
+2025-04-06 16:31:14.334 +03:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2025-04-06 16:31:14.334 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/swagger/favicon-32x32.png - 200 628 image/png 14.5843ms
+2025-04-06 16:31:18.853 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/categories/allCategorys - null null
+2025-04-06 16:31:18.854 +03:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-04-06 16:31:18.855 +03:00 [INF] AuthenticationScheme: OpenIdConnect was challenged.
+2025-04-06 16:31:18.855 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/categories/allCategorys - 302 0 null 1.2427ms
+2025-04-06 16:32:36.733 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/categories/allCategorys - null null
+2025-04-06 16:32:36.739 +03:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-04-06 16:32:36.741 +03:00 [INF] AuthenticationScheme: OpenIdConnect was challenged.
+2025-04-06 16:32:36.741 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/categories/allCategorys - 302 0 null 8.6524ms
+2025-04-06 16:36:08.580 +03:00 [INF] User profile is available. Using 'C:\Users\MomenAbuEl-Haija\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-04-06 16:36:08.773 +03:00 [INF] Now listening on: https://localhost:7060
+2025-04-06 16:36:08.774 +03:00 [INF] Now listening on: http://localhost:5062
+2025-04-06 16:36:08.784 +03:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2025-04-06 16:36:08.806 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-04-06 16:36:08.808 +03:00 [INF] Hosting environment: Development
+2025-04-06 16:36:08.809 +03:00 [INF] Content root path: C:\Users\MomenAbuEl-Haija\source\Workspaces\Workspace2\ECommerce\Ecommerce.API\Ecommerce.API
+2025-04-06 16:36:09.201 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/swagger/index.html - null null
+2025-04-06 16:36:09.357 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/swagger/index.html - 200 null text/html;charset=utf-8 157.5607ms
+2025-04-06 16:36:09.360 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/_framework/aspnetcore-browser-refresh.js - null null
+2025-04-06 16:36:09.360 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/_vs/browserLink - null null
+2025-04-06 16:36:09.367 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/_framework/aspnetcore-browser-refresh.js - 200 16511 application/javascript; charset=utf-8 5.7658ms
+2025-04-06 16:36:09.391 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/_vs/browserLink - 200 null text/javascript; charset=UTF-8 30.3561ms
+2025-04-06 16:36:09.431 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/swagger/v1/swagger.json - null null
+2025-04-06 16:36:09.441 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 10.2236ms
+2025-04-06 16:36:12.063 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/categories/allCategorys - null null
+2025-04-06 16:36:12.100 +03:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-04-06 16:36:12.162 +03:00 [INF] AuthenticationScheme: OpenIdConnect was challenged.
+2025-04-06 16:36:12.163 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/categories/allCategorys - 302 0 null 100.0208ms
+2025-04-06 16:41:18.271 +03:00 [INF] User profile is available. Using 'C:\Users\MomenAbuEl-Haija\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-04-06 16:41:18.479 +03:00 [INF] Now listening on: https://localhost:7060
+2025-04-06 16:41:18.481 +03:00 [INF] Now listening on: http://localhost:5062
+2025-04-06 16:41:18.490 +03:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2025-04-06 16:41:18.510 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-04-06 16:41:18.512 +03:00 [INF] Hosting environment: Development
+2025-04-06 16:41:18.513 +03:00 [INF] Content root path: C:\Users\MomenAbuEl-Haija\source\Workspaces\Workspace2\ECommerce\Ecommerce.API\Ecommerce.API
+2025-04-06 16:41:19.052 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/swagger/index.html - null null
+2025-04-06 16:41:19.208 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/swagger/index.html - 200 null text/html;charset=utf-8 156.8352ms
+2025-04-06 16:41:19.211 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/_vs/browserLink - null null
+2025-04-06 16:41:19.211 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/_framework/aspnetcore-browser-refresh.js - null null
+2025-04-06 16:41:19.216 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/_framework/aspnetcore-browser-refresh.js - 200 16511 application/javascript; charset=utf-8 5.551ms
+2025-04-06 16:41:19.243 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/_vs/browserLink - 200 null text/javascript; charset=UTF-8 32.2687ms
+2025-04-06 16:41:19.276 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/swagger/v1/swagger.json - null null
+2025-04-06 16:41:19.289 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 12.1471ms
+2025-04-06 17:24:09.275 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/swagger/oauth2-redirect.html?code=9CA8B5C02F3C8703BCD2C592CF0ECD85300519059653709B188BF85DBC413B1B-1&scope=openid%20profile%20email%20ecommerceapi%20ecommerce&state=U3VuIEFwciAwNiAyMDI1IDE3OjI0OjA2IEdNVCswMzAwIChHTVQrMDM6MDAp&session_state=jn4mgOKjGgrF_UVT79wmjXHUYIYHf92hCn58BJrcmm0.4D1BF5219673C152FD7E6E0DD10142E9&iss=https%3A%2F%2Flocalhost%3A7110 - null null
+2025-04-06 17:24:09.326 +03:00 [INF] Sending file. Request path: '/oauth2-redirect.html'. Physical path: 'N/A'
+2025-04-06 17:24:09.326 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/swagger/oauth2-redirect.html?code=9CA8B5C02F3C8703BCD2C592CF0ECD85300519059653709B188BF85DBC413B1B-1&scope=openid%20profile%20email%20ecommerceapi%20ecommerce&state=U3VuIEFwciAwNiAyMDI1IDE3OjI0OjA2IEdNVCswMzAwIChHTVQrMDM6MDAp&session_state=jn4mgOKjGgrF_UVT79wmjXHUYIYHf92hCn58BJrcmm0.4D1BF5219673C152FD7E6E0DD10142E9&iss=https%3A%2F%2Flocalhost%3A7110 - 200 null text/html 51.0083ms
+2025-04-06 17:24:09.332 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/_vs/browserLink - null null
+2025-04-06 17:24:09.332 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/_framework/aspnetcore-browser-refresh.js - null null
+2025-04-06 17:24:09.334 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/_framework/aspnetcore-browser-refresh.js - 200 16511 application/javascript; charset=utf-8 1.5402ms
+2025-04-06 17:24:09.352 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/_vs/browserLink - 200 null text/javascript; charset=UTF-8 19.9485ms
+2025-04-06 17:24:15.106 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/categories/allCategorys - null null
+2025-04-06 17:24:15.143 +03:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-04-06 17:24:15.283 +03:00 [INF] AuthenticationScheme: OpenIdConnect was challenged.
+2025-04-06 17:24:15.284 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/categories/allCategorys - 302 0 null 178.4322ms
+2025-04-06 17:24:43.876 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/swagger/oauth2-redirect.html?code=73F86B877154129C0A8B221DEB4EAEB8AC1FA02BEDEDD309D3CA2EA4049A7A7C-1&scope=openid%20profile%20email%20ecommerceapi%20ecommerce&state=U3VuIEFwciAwNiAyMDI1IDE3OjI0OjQzIEdNVCswMzAwIChHTVQrMDM6MDAp&session_state=EJCbAvX9fZH4NHCUKwrse9mu1PAWYiy9Ct4xYuPbxPY.C6D7867FFAE323F8068996FACDBC4523&iss=https%3A%2F%2Flocalhost%3A7110 - null null
+2025-04-06 17:24:43.902 +03:00 [INF] Sending file. Request path: '/oauth2-redirect.html'. Physical path: 'N/A'
+2025-04-06 17:24:43.903 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/swagger/oauth2-redirect.html?code=73F86B877154129C0A8B221DEB4EAEB8AC1FA02BEDEDD309D3CA2EA4049A7A7C-1&scope=openid%20profile%20email%20ecommerceapi%20ecommerce&state=U3VuIEFwciAwNiAyMDI1IDE3OjI0OjQzIEdNVCswMzAwIChHTVQrMDM6MDAp&session_state=EJCbAvX9fZH4NHCUKwrse9mu1PAWYiy9Ct4xYuPbxPY.C6D7867FFAE323F8068996FACDBC4523&iss=https%3A%2F%2Flocalhost%3A7110 - 200 null text/html 26.6867ms
+2025-04-06 17:24:43.909 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/_vs/browserLink - null null
+2025-04-06 17:24:43.909 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/_framework/aspnetcore-browser-refresh.js - null null
+2025-04-06 17:24:43.911 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/_framework/aspnetcore-browser-refresh.js - 200 16511 application/javascript; charset=utf-8 1.3765ms
+2025-04-06 17:24:43.925 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/_vs/browserLink - 200 null text/javascript; charset=UTF-8 16.0965ms
+2025-04-06 17:24:48.505 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/categories/allCategorys - null null
+2025-04-06 17:24:48.511 +03:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-04-06 17:24:48.512 +03:00 [INF] AuthenticationScheme: OpenIdConnect was challenged.
+2025-04-06 17:24:48.512 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/categories/allCategorys - 302 0 null 7.7805ms
+2025-04-06 17:34:07.392 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/swagger/oauth2-redirect.html?code=26B5689AB80E0082BC60C2BFDA9B704A33DE5921528FA05819B1E5B819306897-1&scope=openid%20profile%20email%20ecommerceapi%20ecommerce&state=U3VuIEFwciAwNiAyMDI1IDE3OjMzOjI1IEdNVCswMzAwIChHTVQrMDM6MDAp&session_state=2cFyMyBOBpRCNmSaRCJBjCwb00bQTeIPanzrIikaC_w.F1B2F8AD2B640EDB1058EB8D7DCFD514&iss=https%3A%2F%2Flocalhost%3A7110 - null null
+2025-04-06 17:34:07.420 +03:00 [INF] Sending file. Request path: '/oauth2-redirect.html'. Physical path: 'N/A'
+2025-04-06 17:34:07.420 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/swagger/oauth2-redirect.html?code=26B5689AB80E0082BC60C2BFDA9B704A33DE5921528FA05819B1E5B819306897-1&scope=openid%20profile%20email%20ecommerceapi%20ecommerce&state=U3VuIEFwciAwNiAyMDI1IDE3OjMzOjI1IEdNVCswMzAwIChHTVQrMDM6MDAp&session_state=2cFyMyBOBpRCNmSaRCJBjCwb00bQTeIPanzrIikaC_w.F1B2F8AD2B640EDB1058EB8D7DCFD514&iss=https%3A%2F%2Flocalhost%3A7110 - 200 null text/html 27.5624ms
+2025-04-06 17:34:07.431 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/_framework/aspnetcore-browser-refresh.js - null null
+2025-04-06 17:34:07.431 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/_vs/browserLink - null null
+2025-04-06 17:34:07.432 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/_framework/aspnetcore-browser-refresh.js - 200 16511 application/javascript; charset=utf-8 1.0833ms
+2025-04-06 17:34:07.445 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/_vs/browserLink - 200 null text/javascript; charset=UTF-8 14.1883ms
+2025-04-06 17:35:42.617 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/swagger/oauth2-redirect.html?code=BB307FBB9F053BBCBE0AE29D726F6B448E27F57EE319B87C74A59436D5338A09-1&scope=openid%20profile%20email%20ecommerceapi%20ecommerce&state=U3VuIEFwciAwNiAyMDI1IDE3OjM1OjQyIEdNVCswMzAwIChHTVQrMDM6MDAp&session_state=uzitg-VnovF5ziy78duwF8QKChJTTE_UHx1Hale7GPY.EDE635C588EBEE45089E52B671CD9668&iss=https%3A%2F%2Flocalhost%3A7110 - null null
+2025-04-06 17:35:42.641 +03:00 [INF] Sending file. Request path: '/oauth2-redirect.html'. Physical path: 'N/A'
+2025-04-06 17:35:42.641 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/swagger/oauth2-redirect.html?code=BB307FBB9F053BBCBE0AE29D726F6B448E27F57EE319B87C74A59436D5338A09-1&scope=openid%20profile%20email%20ecommerceapi%20ecommerce&state=U3VuIEFwciAwNiAyMDI1IDE3OjM1OjQyIEdNVCswMzAwIChHTVQrMDM6MDAp&session_state=uzitg-VnovF5ziy78duwF8QKChJTTE_UHx1Hale7GPY.EDE635C588EBEE45089E52B671CD9668&iss=https%3A%2F%2Flocalhost%3A7110 - 200 null text/html 24.6661ms
+2025-04-06 17:35:42.649 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/_framework/aspnetcore-browser-refresh.js - null null
+2025-04-06 17:35:42.649 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/_vs/browserLink - null null
+2025-04-06 17:35:42.651 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/_framework/aspnetcore-browser-refresh.js - 200 16511 application/javascript; charset=utf-8 1.0873ms
+2025-04-06 17:35:42.662 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/_vs/browserLink - 200 null text/javascript; charset=UTF-8 12.3984ms
+2025-04-06 17:36:13.902 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/swagger/oauth2-redirect.html?code=91C312CB21E0ADA44F0864B3BE05A78248C63D3946E35D6853FCE1993E4005F8-1&scope=openid%20profile%20email%20ecommerceapi%20ecommerce&state=U3VuIEFwciAwNiAyMDI1IDE3OjM2OjEzIEdNVCswMzAwIChHTVQrMDM6MDAp&session_state=32ODRtHCzrTsKUdGNRWsOciSi5S--UiaYGEJJcm8W1U.F231DEAA01540D0D3BB18345D2D46F38&iss=https%3A%2F%2Flocalhost%3A7110 - null null
+2025-04-06 17:36:13.926 +03:00 [INF] Sending file. Request path: '/oauth2-redirect.html'. Physical path: 'N/A'
+2025-04-06 17:36:13.926 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/swagger/oauth2-redirect.html?code=91C312CB21E0ADA44F0864B3BE05A78248C63D3946E35D6853FCE1993E4005F8-1&scope=openid%20profile%20email%20ecommerceapi%20ecommerce&state=U3VuIEFwciAwNiAyMDI1IDE3OjM2OjEzIEdNVCswMzAwIChHTVQrMDM6MDAp&session_state=32ODRtHCzrTsKUdGNRWsOciSi5S--UiaYGEJJcm8W1U.F231DEAA01540D0D3BB18345D2D46F38&iss=https%3A%2F%2Flocalhost%3A7110 - 200 null text/html 24.16ms
+2025-04-06 17:36:13.932 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/_framework/aspnetcore-browser-refresh.js - null null
+2025-04-06 17:36:13.932 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/_vs/browserLink - null null
+2025-04-06 17:36:13.933 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/_framework/aspnetcore-browser-refresh.js - 200 16511 application/javascript; charset=utf-8 0.9932ms
+2025-04-06 17:36:13.948 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/_vs/browserLink - 200 null text/javascript; charset=UTF-8 16.0201ms
+2025-04-06 17:36:22.011 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/swagger/index.html - null null
+2025-04-06 17:36:22.029 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/swagger/index.html - 200 null text/html;charset=utf-8 17.9585ms
+2025-04-06 17:36:22.037 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/_vs/browserLink - null null
+2025-04-06 17:36:22.037 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/_framework/aspnetcore-browser-refresh.js - null null
+2025-04-06 17:36:22.038 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/_framework/aspnetcore-browser-refresh.js - 200 16511 application/javascript; charset=utf-8 0.8459ms
+2025-04-06 17:36:22.048 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/_vs/browserLink - 200 null text/javascript; charset=UTF-8 11.4423ms
+2025-04-06 17:36:22.140 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/swagger/v1/swagger.json - null null
+2025-04-06 17:36:22.147 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 7.4121ms
+2025-04-06 17:36:26.391 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/swagger/oauth2-redirect.html?code=CA1A3404D3B57391421630721EE725EA6B5DDC7FE9231F0FB7931EB3B9FE3CD5-1&scope=openid%20profile%20email%20ecommerceapi%20ecommerce&state=U3VuIEFwciAwNiAyMDI1IDE3OjM2OjI2IEdNVCswMzAwIChHTVQrMDM6MDAp&session_state=NQVQQz16dlPkCztpERBrT8Ms81otJS4YLGJcTzGkGXM.985073986B1F91F0E5E47569812C1126&iss=https%3A%2F%2Flocalhost%3A7110 - null null
+2025-04-06 17:36:26.407 +03:00 [INF] Sending file. Request path: '/oauth2-redirect.html'. Physical path: 'N/A'
+2025-04-06 17:36:26.407 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/swagger/oauth2-redirect.html?code=CA1A3404D3B57391421630721EE725EA6B5DDC7FE9231F0FB7931EB3B9FE3CD5-1&scope=openid%20profile%20email%20ecommerceapi%20ecommerce&state=U3VuIEFwciAwNiAyMDI1IDE3OjM2OjI2IEdNVCswMzAwIChHTVQrMDM6MDAp&session_state=NQVQQz16dlPkCztpERBrT8Ms81otJS4YLGJcTzGkGXM.985073986B1F91F0E5E47569812C1126&iss=https%3A%2F%2Flocalhost%3A7110 - 200 null text/html 16.0748ms
+2025-04-06 17:36:26.413 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/_vs/browserLink - null null
+2025-04-06 17:36:26.413 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/_framework/aspnetcore-browser-refresh.js - null null
+2025-04-06 17:36:26.414 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/_framework/aspnetcore-browser-refresh.js - 200 16511 application/javascript; charset=utf-8 0.8447ms
+2025-04-06 17:36:26.422 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/_vs/browserLink - 200 null text/javascript; charset=UTF-8 8.453ms
+2025-04-06 17:36:30.588 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/swagger/oauth2-redirect.html?code=AF79C217AFF4BD96318C1A92FF6E37D8F8531F4B8FA67A440899DAF2140137CF-1&scope=openid%20profile%20email%20ecommerceapi%20ecommerce&state=U3VuIEFwciAwNiAyMDI1IDE3OjM2OjMwIEdNVCswMzAwIChHTVQrMDM6MDAp&session_state=wmxoZXL_OlkWq7mV9rOZQDumuy_En-4aydvtwocNREE.DFC4AAE14C3BFFDF58B9038E31548D21&iss=https%3A%2F%2Flocalhost%3A7110 - null null
+2025-04-06 17:36:30.604 +03:00 [INF] Sending file. Request path: '/oauth2-redirect.html'. Physical path: 'N/A'
+2025-04-06 17:36:30.605 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/swagger/oauth2-redirect.html?code=AF79C217AFF4BD96318C1A92FF6E37D8F8531F4B8FA67A440899DAF2140137CF-1&scope=openid%20profile%20email%20ecommerceapi%20ecommerce&state=U3VuIEFwciAwNiAyMDI1IDE3OjM2OjMwIEdNVCswMzAwIChHTVQrMDM6MDAp&session_state=wmxoZXL_OlkWq7mV9rOZQDumuy_En-4aydvtwocNREE.DFC4AAE14C3BFFDF58B9038E31548D21&iss=https%3A%2F%2Flocalhost%3A7110 - 200 null text/html 16.537ms
+2025-04-06 17:36:30.611 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/_framework/aspnetcore-browser-refresh.js - null null
+2025-04-06 17:36:30.611 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/_vs/browserLink - null null
+2025-04-06 17:36:30.611 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/_framework/aspnetcore-browser-refresh.js - 200 16511 application/javascript; charset=utf-8 0.5808ms
+2025-04-06 17:36:30.615 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/_vs/browserLink - 200 null text/javascript; charset=UTF-8 3.8422ms
+2025-04-06 17:36:37.584 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/swagger/index.html - null null
+2025-04-06 17:36:37.601 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/swagger/index.html - 200 null text/html;charset=utf-8 17.1159ms
+2025-04-06 17:36:37.610 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/_framework/aspnetcore-browser-refresh.js - null null
+2025-04-06 17:36:37.610 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/_vs/browserLink - null null
+2025-04-06 17:36:37.610 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/_framework/aspnetcore-browser-refresh.js - 200 16511 application/javascript; charset=utf-8 0.766ms
+2025-04-06 17:36:37.617 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/_vs/browserLink - 200 null text/javascript; charset=UTF-8 7.4578ms
+2025-04-06 17:36:37.667 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/swagger/v1/swagger.json - null null
+2025-04-06 17:36:37.671 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 4.1978ms
+2025-04-06 17:36:42.523 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/swagger/oauth2-redirect.html?code=2A8AC48F0595A02B5BADBE1F5855001EB3472F8F8F689F864A928E7840DC599C-1&scope=openid%20profile%20email%20ecommerceapi%20ecommerce&state=U3VuIEFwciAwNiAyMDI1IDE3OjM2OjQyIEdNVCswMzAwIChHTVQrMDM6MDAp&session_state=QoVu9ok9XruCiOq9hvtL3Py4-2XaMDMClrDFcZMWvXo.9C27AD5F12EA71638E2C160DDB9C4AB5&iss=https%3A%2F%2Flocalhost%3A7110 - null null
+2025-04-06 17:36:42.539 +03:00 [INF] Sending file. Request path: '/oauth2-redirect.html'. Physical path: 'N/A'
+2025-04-06 17:36:42.539 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/swagger/oauth2-redirect.html?code=2A8AC48F0595A02B5BADBE1F5855001EB3472F8F8F689F864A928E7840DC599C-1&scope=openid%20profile%20email%20ecommerceapi%20ecommerce&state=U3VuIEFwciAwNiAyMDI1IDE3OjM2OjQyIEdNVCswMzAwIChHTVQrMDM6MDAp&session_state=QoVu9ok9XruCiOq9hvtL3Py4-2XaMDMClrDFcZMWvXo.9C27AD5F12EA71638E2C160DDB9C4AB5&iss=https%3A%2F%2Flocalhost%3A7110 - 200 null text/html 17.1674ms
+2025-04-06 17:36:42.545 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/_framework/aspnetcore-browser-refresh.js - null null
+2025-04-06 17:36:42.545 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/_vs/browserLink - null null
+2025-04-06 17:36:42.546 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/_framework/aspnetcore-browser-refresh.js - 200 16511 application/javascript; charset=utf-8 0.68ms
+2025-04-06 17:36:42.549 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/_vs/browserLink - 200 null text/javascript; charset=UTF-8 3.7233ms
+2025-04-06 17:40:12.289 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/swagger/oauth2-redirect.html?code=AF594FE792FBDAC73970AA858AC4CFD065728CFB433FCCDE39F5B0D49DE948AB-1&scope=openid%20profile%20email%20ecommerceapi%20ecommerce&state=U3VuIEFwciAwNiAyMDI1IDE3OjQwOjExIEdNVCswMzAwIChHTVQrMDM6MDAp&session_state=mvXnbjGxgFFyODsU8D6u7aR0QTTK1hPwOw3miiyFDRw.D3FE050D7052791E022D8CD8EE31A036&iss=https%3A%2F%2Flocalhost%3A7110 - null null
+2025-04-06 17:40:12.320 +03:00 [INF] Sending file. Request path: '/oauth2-redirect.html'. Physical path: 'N/A'
+2025-04-06 17:40:12.320 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/swagger/oauth2-redirect.html?code=AF594FE792FBDAC73970AA858AC4CFD065728CFB433FCCDE39F5B0D49DE948AB-1&scope=openid%20profile%20email%20ecommerceapi%20ecommerce&state=U3VuIEFwciAwNiAyMDI1IDE3OjQwOjExIEdNVCswMzAwIChHTVQrMDM6MDAp&session_state=mvXnbjGxgFFyODsU8D6u7aR0QTTK1hPwOw3miiyFDRw.D3FE050D7052791E022D8CD8EE31A036&iss=https%3A%2F%2Flocalhost%3A7110 - 200 null text/html 31.8003ms
+2025-04-06 17:40:12.331 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/_framework/aspnetcore-browser-refresh.js - null null
+2025-04-06 17:40:12.331 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/_vs/browserLink - null null
+2025-04-06 17:40:12.334 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/_framework/aspnetcore-browser-refresh.js - 200 16511 application/javascript; charset=utf-8 2.6293ms
+2025-04-06 17:40:12.341 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/_vs/browserLink - 200 null text/javascript; charset=UTF-8 9.8763ms
+2025-04-06 17:40:16.204 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/swagger/oauth2-redirect.html?code=0947AEBE255EF8D8C884739B4BD9D6B7176003A1E4242410B7DDE516F2E9AFEF-1&scope=openid%20profile%20email%20ecommerceapi%20ecommerce&state=U3VuIEFwciAwNiAyMDI1IDE3OjQwOjE2IEdNVCswMzAwIChHTVQrMDM6MDAp&session_state=SNvORrB1C7LQDUKIQ6a-CfaVhq1d6mWS9nmLB20X7aA.486531372A0C4562E92F8EDCD7017921&iss=https%3A%2F%2Flocalhost%3A7110 - null null
+2025-04-06 17:40:16.223 +03:00 [INF] Sending file. Request path: '/oauth2-redirect.html'. Physical path: 'N/A'
+2025-04-06 17:40:16.223 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/swagger/oauth2-redirect.html?code=0947AEBE255EF8D8C884739B4BD9D6B7176003A1E4242410B7DDE516F2E9AFEF-1&scope=openid%20profile%20email%20ecommerceapi%20ecommerce&state=U3VuIEFwciAwNiAyMDI1IDE3OjQwOjE2IEdNVCswMzAwIChHTVQrMDM6MDAp&session_state=SNvORrB1C7LQDUKIQ6a-CfaVhq1d6mWS9nmLB20X7aA.486531372A0C4562E92F8EDCD7017921&iss=https%3A%2F%2Flocalhost%3A7110 - 200 null text/html 19.009ms
+2025-04-06 17:40:16.228 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/_framework/aspnetcore-browser-refresh.js - null null
+2025-04-06 17:40:16.228 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/_vs/browserLink - null null
+2025-04-06 17:40:16.229 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/_framework/aspnetcore-browser-refresh.js - 200 16511 application/javascript; charset=utf-8 0.8949ms
+2025-04-06 17:40:16.233 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/_vs/browserLink - 200 null text/javascript; charset=UTF-8 4.2659ms
+2025-04-06 17:40:32.359 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/categories/allCategorys - null null
+2025-04-06 17:40:32.361 +03:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-04-06 17:40:32.361 +03:00 [INF] AuthenticationScheme: OpenIdConnect was challenged.
+2025-04-06 17:40:32.361 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/categories/allCategorys - 302 0 null 2.6231ms
+2025-04-06 17:40:43.784 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/swagger/oauth2-redirect.html?code=1F77726133510C3CE69A116340915E9D6DB14878862DCAA51C17C6F8DE836FE7-1&scope=openid%20profile%20email%20ecommerceapi%20ecommerce&state=U3VuIEFwciAwNiAyMDI1IDE3OjQwOjQzIEdNVCswMzAwIChHTVQrMDM6MDAp&session_state=f_MXrqoCxCz872ZRtXjJ2u2yFyMeNjtokH5cY1_EqKM.9051E7C0587E5B6ADBD05F8E7F77E76E&iss=https%3A%2F%2Flocalhost%3A7110 - null null
+2025-04-06 17:40:43.809 +03:00 [INF] Sending file. Request path: '/oauth2-redirect.html'. Physical path: 'N/A'
+2025-04-06 17:40:43.809 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/swagger/oauth2-redirect.html?code=1F77726133510C3CE69A116340915E9D6DB14878862DCAA51C17C6F8DE836FE7-1&scope=openid%20profile%20email%20ecommerceapi%20ecommerce&state=U3VuIEFwciAwNiAyMDI1IDE3OjQwOjQzIEdNVCswMzAwIChHTVQrMDM6MDAp&session_state=f_MXrqoCxCz872ZRtXjJ2u2yFyMeNjtokH5cY1_EqKM.9051E7C0587E5B6ADBD05F8E7F77E76E&iss=https%3A%2F%2Flocalhost%3A7110 - 200 null text/html 24.7232ms
+2025-04-06 17:40:43.815 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/_framework/aspnetcore-browser-refresh.js - null null
+2025-04-06 17:40:43.815 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/_vs/browserLink - null null
+2025-04-06 17:40:43.816 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/_framework/aspnetcore-browser-refresh.js - 200 16511 application/javascript; charset=utf-8 0.8501ms
+2025-04-06 17:40:43.826 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/_vs/browserLink - 200 null text/javascript; charset=UTF-8 10.5735ms
+2025-04-06 17:40:46.388 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/swagger/oauth2-redirect.html?code=1869574218E4CF25EACF02A0E58EF64E8EF583191C36CF2602341D0016395063-1&scope=openid%20profile%20email%20ecommerceapi%20ecommerce&state=U3VuIEFwciAwNiAyMDI1IDE3OjQwOjQ2IEdNVCswMzAwIChHTVQrMDM6MDAp&session_state=4soUGThZ__-IeFVb2tFrlOSkUX3PFCM2gDz7ebY4zcg.221E47F09681C09F77AD960B522F5113&iss=https%3A%2F%2Flocalhost%3A7110 - null null
+2025-04-06 17:40:46.408 +03:00 [INF] Sending file. Request path: '/oauth2-redirect.html'. Physical path: 'N/A'
+2025-04-06 17:40:46.408 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/swagger/oauth2-redirect.html?code=1869574218E4CF25EACF02A0E58EF64E8EF583191C36CF2602341D0016395063-1&scope=openid%20profile%20email%20ecommerceapi%20ecommerce&state=U3VuIEFwciAwNiAyMDI1IDE3OjQwOjQ2IEdNVCswMzAwIChHTVQrMDM6MDAp&session_state=4soUGThZ__-IeFVb2tFrlOSkUX3PFCM2gDz7ebY4zcg.221E47F09681C09F77AD960B522F5113&iss=https%3A%2F%2Flocalhost%3A7110 - 200 null text/html 19.2683ms
+2025-04-06 17:40:46.413 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/_framework/aspnetcore-browser-refresh.js - null null
+2025-04-06 17:40:46.414 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/_vs/browserLink - null null
+2025-04-06 17:40:46.414 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/_framework/aspnetcore-browser-refresh.js - 200 16511 application/javascript; charset=utf-8 0.9873ms
+2025-04-06 17:40:46.422 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/_vs/browserLink - 200 null text/javascript; charset=UTF-8 8.2613ms
+2025-04-06 17:40:51.750 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/swagger/index.html - null null
+2025-04-06 17:40:51.770 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/swagger/index.html - 200 null text/html;charset=utf-8 20.0828ms
+2025-04-06 17:40:51.777 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/_framework/aspnetcore-browser-refresh.js - null null
+2025-04-06 17:40:51.777 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/_vs/browserLink - null null
+2025-04-06 17:40:51.778 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/_framework/aspnetcore-browser-refresh.js - 200 16511 application/javascript; charset=utf-8 0.916ms
+2025-04-06 17:40:51.785 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/_vs/browserLink - 200 null text/javascript; charset=UTF-8 7.6728ms
+2025-04-06 17:40:51.828 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/swagger/v1/swagger.json - null null
+2025-04-06 17:40:51.832 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 3.8538ms
+2025-04-06 17:40:52.871 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/swagger/index.html - null null
+2025-04-06 17:40:52.892 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/swagger/index.html - 200 null text/html;charset=utf-8 20.5289ms
+2025-04-06 17:40:52.899 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/_framework/aspnetcore-browser-refresh.js - null null
+2025-04-06 17:40:52.899 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/_vs/browserLink - null null
+2025-04-06 17:40:52.900 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/_framework/aspnetcore-browser-refresh.js - 200 16511 application/javascript; charset=utf-8 0.8553ms
+2025-04-06 17:40:52.907 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/_vs/browserLink - 200 null text/javascript; charset=UTF-8 7.5427ms
+2025-04-06 17:40:52.942 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/swagger/v1/swagger.json - null null
+2025-04-06 17:40:52.945 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 3.2725ms
+2025-04-06 17:40:58.994 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/swagger/oauth2-redirect.html?code=1320EA008452BA1A32F07FE637956D7C0A50310EF9D52CAA7ECC13BBD13EFF04-1&scope=openid%20profile%20email%20ecommerceapi%20ecommerce&state=U3VuIEFwciAwNiAyMDI1IDE3OjQwOjU4IEdNVCswMzAwIChHTVQrMDM6MDAp&session_state=7rlNv5C14SIhU3vm7vKogpTvZWg35615-nL3j_vt_Ro.204E83BF8257EF410DD582831DB90225&iss=https%3A%2F%2Flocalhost%3A7110 - null null
+2025-04-06 17:40:59.010 +03:00 [INF] Sending file. Request path: '/oauth2-redirect.html'. Physical path: 'N/A'
+2025-04-06 17:40:59.010 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/swagger/oauth2-redirect.html?code=1320EA008452BA1A32F07FE637956D7C0A50310EF9D52CAA7ECC13BBD13EFF04-1&scope=openid%20profile%20email%20ecommerceapi%20ecommerce&state=U3VuIEFwciAwNiAyMDI1IDE3OjQwOjU4IEdNVCswMzAwIChHTVQrMDM6MDAp&session_state=7rlNv5C14SIhU3vm7vKogpTvZWg35615-nL3j_vt_Ro.204E83BF8257EF410DD582831DB90225&iss=https%3A%2F%2Flocalhost%3A7110 - 200 null text/html 16.493ms
+2025-04-06 17:40:59.020 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/_framework/aspnetcore-browser-refresh.js - null null
+2025-04-06 17:40:59.020 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/_vs/browserLink - null null
+2025-04-06 17:40:59.021 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/_framework/aspnetcore-browser-refresh.js - 200 16511 application/javascript; charset=utf-8 1.0044ms
+2025-04-06 17:40:59.025 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/_vs/browserLink - 200 null text/javascript; charset=UTF-8 4.4117ms
+2025-04-06 17:43:39.153 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/categories/allCategorys - null null
+2025-04-06 17:43:39.162 +03:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-04-06 17:43:39.163 +03:00 [INF] AuthenticationScheme: OpenIdConnect was challenged.
+2025-04-06 17:43:39.163 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/categories/allCategorys - 302 0 null 9.888ms
+2025-04-06 17:44:20.048 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/swagger/oauth2-redirect.html?code=9580D1B0C3412BF1C05EF2315F1559762EAC0561E57EF95D2F8124D155834709-1&scope=openid%20profile%20email%20ecommerceapi%20ecommerce&state=U3VuIEFwciAwNiAyMDI1IDE3OjQ0OjE4IEdNVCswMzAwIChHTVQrMDM6MDAp&session_state=C9rJ244GlOG3f6XJv_7aiwNbtG-FQAJixS3rMxcn_hk.89825324B0027B6244CFFD7488652BF2&iss=https%3A%2F%2Flocalhost%3A7110 - null null
+2025-04-06 17:44:20.075 +03:00 [INF] Sending file. Request path: '/oauth2-redirect.html'. Physical path: 'N/A'
+2025-04-06 17:44:20.075 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/swagger/oauth2-redirect.html?code=9580D1B0C3412BF1C05EF2315F1559762EAC0561E57EF95D2F8124D155834709-1&scope=openid%20profile%20email%20ecommerceapi%20ecommerce&state=U3VuIEFwciAwNiAyMDI1IDE3OjQ0OjE4IEdNVCswMzAwIChHTVQrMDM6MDAp&session_state=C9rJ244GlOG3f6XJv_7aiwNbtG-FQAJixS3rMxcn_hk.89825324B0027B6244CFFD7488652BF2&iss=https%3A%2F%2Flocalhost%3A7110 - 200 null text/html 26.5004ms
+2025-04-06 17:44:20.083 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/_vs/browserLink - null null
+2025-04-06 17:44:20.083 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/_framework/aspnetcore-browser-refresh.js - null null
+2025-04-06 17:44:20.084 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/_framework/aspnetcore-browser-refresh.js - 200 16511 application/javascript; charset=utf-8 1.19ms
+2025-04-06 17:44:20.093 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/_vs/browserLink - 200 null text/javascript; charset=UTF-8 9.9043ms
+2025-04-06 17:44:25.624 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/swagger/oauth2-redirect.html?code=764823E1F7F1F640E955FEA29654D0CF983237228EAB5E2A60D2847E44CBFEDB-1&scope=openid%20profile%20email%20ecommerceapi%20ecommerce&state=U3VuIEFwciAwNiAyMDI1IDE3OjQ0OjI1IEdNVCswMzAwIChHTVQrMDM6MDAp&session_state=EA5q_7u6YfFFPCDaETuhHq0uJgYKHSQLOKRs0HM1jOE.B5CEF87BEB0B6EDE0E390B01E9EC902B&iss=https%3A%2F%2Flocalhost%3A7110 - null null
+2025-04-06 17:44:25.641 +03:00 [INF] Sending file. Request path: '/oauth2-redirect.html'. Physical path: 'N/A'
+2025-04-06 17:44:25.641 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/swagger/oauth2-redirect.html?code=764823E1F7F1F640E955FEA29654D0CF983237228EAB5E2A60D2847E44CBFEDB-1&scope=openid%20profile%20email%20ecommerceapi%20ecommerce&state=U3VuIEFwciAwNiAyMDI1IDE3OjQ0OjI1IEdNVCswMzAwIChHTVQrMDM6MDAp&session_state=EA5q_7u6YfFFPCDaETuhHq0uJgYKHSQLOKRs0HM1jOE.B5CEF87BEB0B6EDE0E390B01E9EC902B&iss=https%3A%2F%2Flocalhost%3A7110 - 200 null text/html 16.9813ms
+2025-04-06 17:44:25.648 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/_framework/aspnetcore-browser-refresh.js - null null
+2025-04-06 17:44:25.648 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/_vs/browserLink - null null
+2025-04-06 17:44:25.648 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/_framework/aspnetcore-browser-refresh.js - 200 16511 application/javascript; charset=utf-8 0.8739ms
+2025-04-06 17:44:25.652 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/_vs/browserLink - 200 null text/javascript; charset=UTF-8 3.9026ms
+2025-04-06 17:44:32.387 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/swagger/oauth2-redirect.html?code=E610531D6850CAA02E9EB779D88374D39D5119424CCBCA25F05B83B83D0AEA60-1&scope=openid%20profile%20email%20ecommerceapi%20ecommerce&state=U3VuIEFwciAwNiAyMDI1IDE3OjQ0OjMyIEdNVCswMzAwIChHTVQrMDM6MDAp&session_state=UBtk78Bl8JabNoDfa2i3zAojRWqRlBbRz7tArVhMQNM.7B62F22987F23181258489CC47CC6E51&iss=https%3A%2F%2Flocalhost%3A7110 - null null
+2025-04-06 17:44:32.404 +03:00 [INF] Sending file. Request path: '/oauth2-redirect.html'. Physical path: 'N/A'
+2025-04-06 17:44:32.404 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/swagger/oauth2-redirect.html?code=E610531D6850CAA02E9EB779D88374D39D5119424CCBCA25F05B83B83D0AEA60-1&scope=openid%20profile%20email%20ecommerceapi%20ecommerce&state=U3VuIEFwciAwNiAyMDI1IDE3OjQ0OjMyIEdNVCswMzAwIChHTVQrMDM6MDAp&session_state=UBtk78Bl8JabNoDfa2i3zAojRWqRlBbRz7tArVhMQNM.7B62F22987F23181258489CC47CC6E51&iss=https%3A%2F%2Flocalhost%3A7110 - 200 null text/html 17.1649ms
+2025-04-06 17:44:32.410 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/_framework/aspnetcore-browser-refresh.js - null null
+2025-04-06 17:44:32.410 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/_vs/browserLink - null null
+2025-04-06 17:44:32.412 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/_framework/aspnetcore-browser-refresh.js - 200 16511 application/javascript; charset=utf-8 1.4284ms
+2025-04-06 17:44:32.425 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/_vs/browserLink - 200 null text/javascript; charset=UTF-8 15.2044ms
+2025-04-06 17:44:34.876 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/swagger/index.html - null null
+2025-04-06 17:44:34.894 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/swagger/index.html - 200 null text/html;charset=utf-8 18.2354ms
+2025-04-06 17:44:34.904 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/_framework/aspnetcore-browser-refresh.js - null null
+2025-04-06 17:44:34.904 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/_vs/browserLink - null null
+2025-04-06 17:44:34.905 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/_framework/aspnetcore-browser-refresh.js - 200 16511 application/javascript; charset=utf-8 0.9114ms
+2025-04-06 17:44:34.911 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/_vs/browserLink - 200 null text/javascript; charset=UTF-8 7.1992ms
+2025-04-06 17:44:35.019 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/swagger/v1/swagger.json - null null
+2025-04-06 17:44:35.022 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 3.3427ms
+2025-04-06 17:44:39.176 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/swagger/oauth2-redirect.html?code=151CD96A739BD531B4559AE8ED0BD2B30C80DB186122F21D80C46C3EDDB49D14-1&scope=openid%20profile%20email%20ecommerceapi%20ecommerce&state=U3VuIEFwciAwNiAyMDI1IDE3OjQ0OjM5IEdNVCswMzAwIChHTVQrMDM6MDAp&session_state=TseZGDxX4RYdkgqAo92ZRcbd_uk00SkfC0AW2V-Ynv4.2D75C00B59C84F140253E1DE8EBC7436&iss=https%3A%2F%2Flocalhost%3A7110 - null null
+2025-04-06 17:44:39.191 +03:00 [INF] Sending file. Request path: '/oauth2-redirect.html'. Physical path: 'N/A'
+2025-04-06 17:44:39.191 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/swagger/oauth2-redirect.html?code=151CD96A739BD531B4559AE8ED0BD2B30C80DB186122F21D80C46C3EDDB49D14-1&scope=openid%20profile%20email%20ecommerceapi%20ecommerce&state=U3VuIEFwciAwNiAyMDI1IDE3OjQ0OjM5IEdNVCswMzAwIChHTVQrMDM6MDAp&session_state=TseZGDxX4RYdkgqAo92ZRcbd_uk00SkfC0AW2V-Ynv4.2D75C00B59C84F140253E1DE8EBC7436&iss=https%3A%2F%2Flocalhost%3A7110 - 200 null text/html 15.5072ms
+2025-04-06 17:44:39.198 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/_framework/aspnetcore-browser-refresh.js - null null
+2025-04-06 17:44:39.198 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/_vs/browserLink - null null
+2025-04-06 17:44:39.198 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/_framework/aspnetcore-browser-refresh.js - 200 16511 application/javascript; charset=utf-8 0.9226ms
+2025-04-06 17:44:39.201 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/_vs/browserLink - 200 null text/javascript; charset=UTF-8 3.753ms
+2025-04-06 17:44:42.905 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/swagger/oauth2-redirect.html?code=80E8EBB3D2CDF96D14614C1505ED7872459E6F4C6E7D93541D31B23F486AAAD1-1&scope=openid%20profile%20email%20ecommerceapi%20ecommerce&state=U3VuIEFwciAwNiAyMDI1IDE3OjQ0OjQyIEdNVCswMzAwIChHTVQrMDM6MDAp&session_state=atND4Hjxw3T9iSYOJ8fyCyUGiFb9Yzl_Ezs4y4TeWXs.B2260086C79159EDA34F8B4C756232C8&iss=https%3A%2F%2Flocalhost%3A7110 - null null
+2025-04-06 17:44:42.920 +03:00 [INF] Sending file. Request path: '/oauth2-redirect.html'. Physical path: 'N/A'
+2025-04-06 17:44:42.921 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/swagger/oauth2-redirect.html?code=80E8EBB3D2CDF96D14614C1505ED7872459E6F4C6E7D93541D31B23F486AAAD1-1&scope=openid%20profile%20email%20ecommerceapi%20ecommerce&state=U3VuIEFwciAwNiAyMDI1IDE3OjQ0OjQyIEdNVCswMzAwIChHTVQrMDM6MDAp&session_state=atND4Hjxw3T9iSYOJ8fyCyUGiFb9Yzl_Ezs4y4TeWXs.B2260086C79159EDA34F8B4C756232C8&iss=https%3A%2F%2Flocalhost%3A7110 - 200 null text/html 15.7131ms
+2025-04-06 17:44:42.927 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/_framework/aspnetcore-browser-refresh.js - null null
+2025-04-06 17:44:42.927 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/_vs/browserLink - null null
+2025-04-06 17:44:42.928 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/_framework/aspnetcore-browser-refresh.js - 200 16511 application/javascript; charset=utf-8 1.0345ms
+2025-04-06 17:44:42.931 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/_vs/browserLink - 200 null text/javascript; charset=UTF-8 3.8221ms
+2025-04-06 17:45:09.772 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/swagger/oauth2-redirect.html?code=967C46494B8E1772B3B0A9BE5E5FC68D390530E70497B188087FBE0BC8208255-1&scope=openid%20profile%20email%20ecommerceapi%20ecommerce&state=U3VuIEFwciAwNiAyMDI1IDE3OjQ1OjA5IEdNVCswMzAwIChHTVQrMDM6MDAp&session_state=8KnvaCbbwqSD9FOBvWIHGQccZ0vBN0qJdPDHjBebgfA.8E9DC9108FE8500D807006690FA9F392&iss=https%3A%2F%2Flocalhost%3A7110 - null null
+2025-04-06 17:45:09.788 +03:00 [INF] Sending file. Request path: '/oauth2-redirect.html'. Physical path: 'N/A'
+2025-04-06 17:45:09.788 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/swagger/oauth2-redirect.html?code=967C46494B8E1772B3B0A9BE5E5FC68D390530E70497B188087FBE0BC8208255-1&scope=openid%20profile%20email%20ecommerceapi%20ecommerce&state=U3VuIEFwciAwNiAyMDI1IDE3OjQ1OjA5IEdNVCswMzAwIChHTVQrMDM6MDAp&session_state=8KnvaCbbwqSD9FOBvWIHGQccZ0vBN0qJdPDHjBebgfA.8E9DC9108FE8500D807006690FA9F392&iss=https%3A%2F%2Flocalhost%3A7110 - 200 null text/html 15.9433ms
+2025-04-06 17:45:09.794 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/_framework/aspnetcore-browser-refresh.js - null null
+2025-04-06 17:45:09.794 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/_vs/browserLink - null null
+2025-04-06 17:45:09.795 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/_framework/aspnetcore-browser-refresh.js - 200 16511 application/javascript; charset=utf-8 1.178ms
+2025-04-06 17:45:09.805 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/_vs/browserLink - 200 null text/javascript; charset=UTF-8 10.798ms
+2025-04-06 17:45:36.359 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/swagger/index.html - null null
+2025-04-06 17:45:36.382 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/swagger/index.html - 200 null text/html;charset=utf-8 22.3635ms
+2025-04-06 17:45:36.391 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/_framework/aspnetcore-browser-refresh.js - null null
+2025-04-06 17:45:36.392 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/_vs/browserLink - null null
+2025-04-06 17:45:36.393 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/_framework/aspnetcore-browser-refresh.js - 200 16511 application/javascript; charset=utf-8 1.3697ms
+2025-04-06 17:45:36.406 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/_vs/browserLink - 200 null text/javascript; charset=UTF-8 14.9287ms
+2025-04-06 17:45:36.457 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/swagger/v1/swagger.json - null null
+2025-04-06 17:45:36.460 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 3.3537ms
+2025-04-06 17:45:40.939 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/swagger/oauth2-redirect.html?code=B31DFE052A266C0FA0431E24AAA95BEAA103A5A9F996A7BEC0B70B2595E0414B-1&scope=openid%20profile%20email%20ecommerceapi%20ecommerce&state=U3VuIEFwciAwNiAyMDI1IDE3OjQ1OjQwIEdNVCswMzAwIChHTVQrMDM6MDAp&session_state=-cuZGHksJpBrACh2dDWh7ynvcjcJqgx9cq-ijRo0RxQ.249D0D1E3855740518EF04702108D0BD&iss=https%3A%2F%2Flocalhost%3A7110 - null null
+2025-04-06 17:45:40.954 +03:00 [INF] Sending file. Request path: '/oauth2-redirect.html'. Physical path: 'N/A'
+2025-04-06 17:45:40.954 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/swagger/oauth2-redirect.html?code=B31DFE052A266C0FA0431E24AAA95BEAA103A5A9F996A7BEC0B70B2595E0414B-1&scope=openid%20profile%20email%20ecommerceapi%20ecommerce&state=U3VuIEFwciAwNiAyMDI1IDE3OjQ1OjQwIEdNVCswMzAwIChHTVQrMDM6MDAp&session_state=-cuZGHksJpBrACh2dDWh7ynvcjcJqgx9cq-ijRo0RxQ.249D0D1E3855740518EF04702108D0BD&iss=https%3A%2F%2Flocalhost%3A7110 - 200 null text/html 15.4081ms
+2025-04-06 17:45:40.960 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/_vs/browserLink - null null
+2025-04-06 17:45:40.960 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/_framework/aspnetcore-browser-refresh.js - null null
+2025-04-06 17:45:40.961 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/_framework/aspnetcore-browser-refresh.js - 200 16511 application/javascript; charset=utf-8 1.0243ms
+2025-04-06 17:45:40.966 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/_vs/browserLink - 200 null text/javascript; charset=UTF-8 5.1324ms
+2025-04-06 17:45:58.725 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/categories/allCategorys - null null
+2025-04-06 17:45:58.725 +03:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-04-06 17:45:58.726 +03:00 [INF] AuthenticationScheme: OpenIdConnect was challenged.
+2025-04-06 17:45:58.726 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/categories/allCategorys - 302 0 null 1.383ms
+2025-04-06 17:48:13.296 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/swagger/oauth2-redirect.html?code=CECD32635270AA980F6798BD46AD98E230651056A9DA0220248C005AF051C7C6-1&scope=openid%20profile%20email%20ecommerceapi%20ecommerce&state=U3VuIEFwciAwNiAyMDI1IDE3OjQ4OjEyIEdNVCswMzAwIChHTVQrMDM6MDAp&session_state=ehd08x_egrNJ-2lY2Rk6VWgwSQ24mpN0-btgVcaNpFY.F8E0F5D1776766731BC2E56CB85BF7C5&iss=https%3A%2F%2Flocalhost%3A7110 - null null
+2025-04-06 17:48:13.320 +03:00 [INF] Sending file. Request path: '/oauth2-redirect.html'. Physical path: 'N/A'
+2025-04-06 17:48:13.320 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/swagger/oauth2-redirect.html?code=CECD32635270AA980F6798BD46AD98E230651056A9DA0220248C005AF051C7C6-1&scope=openid%20profile%20email%20ecommerceapi%20ecommerce&state=U3VuIEFwciAwNiAyMDI1IDE3OjQ4OjEyIEdNVCswMzAwIChHTVQrMDM6MDAp&session_state=ehd08x_egrNJ-2lY2Rk6VWgwSQ24mpN0-btgVcaNpFY.F8E0F5D1776766731BC2E56CB85BF7C5&iss=https%3A%2F%2Flocalhost%3A7110 - 200 null text/html 23.9923ms
+2025-04-06 17:48:13.330 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/_framework/aspnetcore-browser-refresh.js - null null
+2025-04-06 17:48:13.330 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/_vs/browserLink - null null
+2025-04-06 17:48:13.331 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/_framework/aspnetcore-browser-refresh.js - 200 16511 application/javascript; charset=utf-8 1.3177ms
+2025-04-06 17:48:13.340 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/_vs/browserLink - 200 null text/javascript; charset=UTF-8 10.1375ms
+2025-04-06 17:48:17.489 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/swagger/oauth2-redirect.html?code=389FBF4F44377CEE9F2F169D7FE53526EA75894867C792EC00733E213E197468-1&scope=openid%20profile%20email%20ecommerceapi%20ecommerce&state=U3VuIEFwciAwNiAyMDI1IDE3OjQ4OjE3IEdNVCswMzAwIChHTVQrMDM6MDAp&session_state=4RsY40gB5NnJ8IZ8FbzNxhuHO3fLADAbTp59a-Vk_po.5D62F3EBE0413148E0B17706F5DF4087&iss=https%3A%2F%2Flocalhost%3A7110 - null null
+2025-04-06 17:48:17.504 +03:00 [INF] Sending file. Request path: '/oauth2-redirect.html'. Physical path: 'N/A'
+2025-04-06 17:48:17.504 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/swagger/oauth2-redirect.html?code=389FBF4F44377CEE9F2F169D7FE53526EA75894867C792EC00733E213E197468-1&scope=openid%20profile%20email%20ecommerceapi%20ecommerce&state=U3VuIEFwciAwNiAyMDI1IDE3OjQ4OjE3IEdNVCswMzAwIChHTVQrMDM6MDAp&session_state=4RsY40gB5NnJ8IZ8FbzNxhuHO3fLADAbTp59a-Vk_po.5D62F3EBE0413148E0B17706F5DF4087&iss=https%3A%2F%2Flocalhost%3A7110 - 200 null text/html 15.0851ms
+2025-04-06 17:48:17.513 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/_framework/aspnetcore-browser-refresh.js - null null
+2025-04-06 17:48:17.513 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/_vs/browserLink - null null
+2025-04-06 17:48:17.514 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/_framework/aspnetcore-browser-refresh.js - 200 16511 application/javascript; charset=utf-8 0.9883ms
+2025-04-06 17:48:17.518 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/_vs/browserLink - 200 null text/javascript; charset=UTF-8 4.7143ms
+2025-04-06 17:48:32.349 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/swagger/index.html - null null
+2025-04-06 17:48:32.373 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/swagger/index.html - 200 null text/html;charset=utf-8 24.0871ms
+2025-04-06 17:48:32.380 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/_framework/aspnetcore-browser-refresh.js - null null
+2025-04-06 17:48:32.380 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/_vs/browserLink - null null
+2025-04-06 17:48:32.381 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/_framework/aspnetcore-browser-refresh.js - 200 16511 application/javascript; charset=utf-8 0.837ms
+2025-04-06 17:48:32.387 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/_vs/browserLink - 200 null text/javascript; charset=UTF-8 7.0278ms
+2025-04-06 17:48:32.421 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/swagger/v1/swagger.json - null null
+2025-04-06 17:48:32.424 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 3.2628ms
+2025-04-06 17:48:43.517 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/swagger/oauth2-redirect.html?code=909F8E9348738DC096608AB174033B3AF3B2D8C3BFA1A9BAF307BA7FDCC713EC-1&scope=ecommerceapi&state=U3VuIEFwciAwNiAyMDI1IDE3OjQ4OjQzIEdNVCswMzAwIChHTVQrMDM6MDAp&iss=https%3A%2F%2Flocalhost%3A7110 - null null
+2025-04-06 17:48:43.532 +03:00 [INF] Sending file. Request path: '/oauth2-redirect.html'. Physical path: 'N/A'
+2025-04-06 17:48:43.532 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/swagger/oauth2-redirect.html?code=909F8E9348738DC096608AB174033B3AF3B2D8C3BFA1A9BAF307BA7FDCC713EC-1&scope=ecommerceapi&state=U3VuIEFwciAwNiAyMDI1IDE3OjQ4OjQzIEdNVCswMzAwIChHTVQrMDM6MDAp&iss=https%3A%2F%2Flocalhost%3A7110 - 200 null text/html 15.404ms
+2025-04-06 17:48:43.538 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/_vs/browserLink - null null
+2025-04-06 17:48:43.538 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/_framework/aspnetcore-browser-refresh.js - null null
+2025-04-06 17:48:43.539 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/_framework/aspnetcore-browser-refresh.js - 200 16511 application/javascript; charset=utf-8 1.0502ms
+2025-04-06 17:48:43.543 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/_vs/browserLink - 200 null text/javascript; charset=UTF-8 4.8734ms
+2025-04-06 17:48:46.494 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/swagger/oauth2-redirect.html?code=D3BBB25A6EF3507AF5A122651ABADFA43D19DEF247E2D6342FA093749CC6454A-1&scope=ecommerceapi&state=U3VuIEFwciAwNiAyMDI1IDE3OjQ4OjQ2IEdNVCswMzAwIChHTVQrMDM6MDAp&iss=https%3A%2F%2Flocalhost%3A7110 - null null
+2025-04-06 17:48:46.510 +03:00 [INF] Sending file. Request path: '/oauth2-redirect.html'. Physical path: 'N/A'
+2025-04-06 17:48:46.510 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/swagger/oauth2-redirect.html?code=D3BBB25A6EF3507AF5A122651ABADFA43D19DEF247E2D6342FA093749CC6454A-1&scope=ecommerceapi&state=U3VuIEFwciAwNiAyMDI1IDE3OjQ4OjQ2IEdNVCswMzAwIChHTVQrMDM6MDAp&iss=https%3A%2F%2Flocalhost%3A7110 - 200 null text/html 15.5555ms
+2025-04-06 17:48:46.515 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/_framework/aspnetcore-browser-refresh.js - null null
+2025-04-06 17:48:46.515 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/_vs/browserLink - null null
+2025-04-06 17:48:46.516 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/_framework/aspnetcore-browser-refresh.js - 200 16511 application/javascript; charset=utf-8 0.8647ms
+2025-04-06 17:48:46.519 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/_vs/browserLink - 200 null text/javascript; charset=UTF-8 4.1769ms
+2025-04-06 17:50:06.225 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/swagger/index.html - null null
+2025-04-06 17:50:06.252 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/swagger/index.html - 200 null text/html;charset=utf-8 27.3059ms
+2025-04-06 17:50:06.262 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/_framework/aspnetcore-browser-refresh.js - null null
+2025-04-06 17:50:06.262 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/_vs/browserLink - null null
+2025-04-06 17:50:06.263 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/_framework/aspnetcore-browser-refresh.js - 200 16511 application/javascript; charset=utf-8 1.0083ms
+2025-04-06 17:50:06.270 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/_vs/browserLink - 200 null text/javascript; charset=UTF-8 7.718ms
+2025-04-06 17:50:06.305 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/swagger/v1/swagger.json - null null
+2025-04-06 17:50:06.309 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 3.7804ms
+2025-04-06 17:50:18.127 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/swagger/index.html - null null
+2025-04-06 17:50:18.145 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/swagger/index.html - 200 null text/html;charset=utf-8 18.5357ms
+2025-04-06 17:50:18.153 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/_framework/aspnetcore-browser-refresh.js - null null
+2025-04-06 17:50:18.153 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/_vs/browserLink - null null
+2025-04-06 17:50:18.153 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/_framework/aspnetcore-browser-refresh.js - 200 16511 application/javascript; charset=utf-8 0.8747ms
+2025-04-06 17:50:18.160 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/_vs/browserLink - 200 null text/javascript; charset=UTF-8 7.2046ms
+2025-04-06 17:50:18.195 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/swagger/v1/swagger.json - null null
+2025-04-06 17:50:18.198 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 3.7355ms
+2025-04-06 17:50:30.068 +03:00 [INF] User profile is available. Using 'C:\Users\MomenAbuEl-Haija\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-04-06 17:50:30.284 +03:00 [INF] Now listening on: https://localhost:7060
+2025-04-06 17:50:30.286 +03:00 [INF] Now listening on: http://localhost:5062
+2025-04-06 17:50:30.297 +03:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2025-04-06 17:50:30.319 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-04-06 17:50:30.321 +03:00 [INF] Hosting environment: Development
+2025-04-06 17:50:30.322 +03:00 [INF] Content root path: C:\Users\MomenAbuEl-Haija\source\Workspaces\Workspace2\ECommerce\Ecommerce.API\Ecommerce.API
+2025-04-06 17:50:30.990 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/swagger/index.html - null null
+2025-04-06 17:50:31.141 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/swagger/index.html - 200 null text/html;charset=utf-8 152.1679ms
+2025-04-06 17:50:31.145 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/_vs/browserLink - null null
+2025-04-06 17:50:31.145 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/_framework/aspnetcore-browser-refresh.js - null null
+2025-04-06 17:50:31.149 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/_framework/aspnetcore-browser-refresh.js - 200 16511 application/javascript; charset=utf-8 4.4816ms
+2025-04-06 17:50:31.179 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/_vs/browserLink - 200 null text/javascript; charset=UTF-8 33.9109ms
+2025-04-06 17:50:31.217 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/swagger/v1/swagger.json - null null
+2025-04-06 17:50:31.231 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 14.2762ms
+2025-04-06 17:51:52.791 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/swagger/oauth2-redirect.html?code=CC3833E19B89D55CEDBF5BAC6C396D09119CCEC0C6795945F39D782A3EC20492-1&scope=openid%20profile%20email%20ecommerceapi%20ecommerce&state=U3VuIEFwciAwNiAyMDI1IDE3OjUxOjUxIEdNVCswMzAwIChHTVQrMDM6MDAp&session_state=-8q8n1aw64cgQKstK6JrqTNYihw3VlCYdERwTz-oCqs.EDF52F0CADF72D0C530859EB9EFAB43A&iss=https%3A%2F%2Flocalhost%3A7110 - null null
+2025-04-06 17:51:52.839 +03:00 [INF] Sending file. Request path: '/oauth2-redirect.html'. Physical path: 'N/A'
+2025-04-06 17:51:52.840 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/swagger/oauth2-redirect.html?code=CC3833E19B89D55CEDBF5BAC6C396D09119CCEC0C6795945F39D782A3EC20492-1&scope=openid%20profile%20email%20ecommerceapi%20ecommerce&state=U3VuIEFwciAwNiAyMDI1IDE3OjUxOjUxIEdNVCswMzAwIChHTVQrMDM6MDAp&session_state=-8q8n1aw64cgQKstK6JrqTNYihw3VlCYdERwTz-oCqs.EDF52F0CADF72D0C530859EB9EFAB43A&iss=https%3A%2F%2Flocalhost%3A7110 - 200 null text/html 48.8931ms
+2025-04-06 17:51:52.844 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/_vs/browserLink - null null
+2025-04-06 17:51:52.844 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/_framework/aspnetcore-browser-refresh.js - null null
+2025-04-06 17:51:52.846 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/_framework/aspnetcore-browser-refresh.js - 200 16511 application/javascript; charset=utf-8 1.4265ms
+2025-04-06 17:51:52.859 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/_vs/browserLink - 200 null text/javascript; charset=UTF-8 15.1287ms
+2025-04-06 17:54:25.200 +03:00 [INF] User profile is available. Using 'C:\Users\MomenAbuEl-Haija\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-04-06 17:54:25.436 +03:00 [INF] Now listening on: https://localhost:7060
+2025-04-06 17:54:25.438 +03:00 [INF] Now listening on: http://localhost:5062
+2025-04-06 17:54:25.452 +03:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2025-04-06 17:54:25.477 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-04-06 17:54:25.479 +03:00 [INF] Hosting environment: Development
+2025-04-06 17:54:25.481 +03:00 [INF] Content root path: C:\Users\MomenAbuEl-Haija\source\Workspaces\Workspace2\ECommerce\Ecommerce.API\Ecommerce.API
+2025-04-06 17:54:26.131 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/swagger/index.html - null null
+2025-04-06 17:54:26.294 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/swagger/index.html - 200 null text/html;charset=utf-8 164.162ms
+2025-04-06 17:54:26.299 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/_framework/aspnetcore-browser-refresh.js - null null
+2025-04-06 17:54:26.299 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/_vs/browserLink - null null
+2025-04-06 17:54:26.306 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/_framework/aspnetcore-browser-refresh.js - 200 16511 application/javascript; charset=utf-8 6.4917ms
+2025-04-06 17:54:26.333 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/_vs/browserLink - 200 null text/javascript; charset=UTF-8 33.4711ms
+2025-04-06 17:54:26.368 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/swagger/v1/swagger.json - null null
+2025-04-06 17:54:26.380 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 11.5672ms
+2025-04-06 17:54:49.376 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/swagger/oauth2-redirect.html?code=D144E40E340D54AC16E0BCD2DE779B758E7CCEDDC4671898258EBEF07182872A-1&scope=openid%20profile%20email%20ecommerceapi&state=U3VuIEFwciAwNiAyMDI1IDE3OjU0OjQ4IEdNVCswMzAwIChHTVQrMDM6MDAp&session_state=ZxyobHCu1aNO36aHrC5dQelCTOYiyhxbNGWEhEL1Dag.178D8112E63B25743014DA5D3A42B0D3&iss=https%3A%2F%2Flocalhost%3A7110 - null null
+2025-04-06 17:54:49.392 +03:00 [INF] Sending file. Request path: '/oauth2-redirect.html'. Physical path: 'N/A'
+2025-04-06 17:54:49.393 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/swagger/oauth2-redirect.html?code=D144E40E340D54AC16E0BCD2DE779B758E7CCEDDC4671898258EBEF07182872A-1&scope=openid%20profile%20email%20ecommerceapi&state=U3VuIEFwciAwNiAyMDI1IDE3OjU0OjQ4IEdNVCswMzAwIChHTVQrMDM6MDAp&session_state=ZxyobHCu1aNO36aHrC5dQelCTOYiyhxbNGWEhEL1Dag.178D8112E63B25743014DA5D3A42B0D3&iss=https%3A%2F%2Flocalhost%3A7110 - 200 null text/html 16.919ms
+2025-04-06 17:54:49.397 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/_vs/browserLink - null null
+2025-04-06 17:54:49.397 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/_framework/aspnetcore-browser-refresh.js - null null
+2025-04-06 17:54:49.400 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/_framework/aspnetcore-browser-refresh.js - 200 16511 application/javascript; charset=utf-8 1.9617ms
+2025-04-06 17:54:49.418 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/_vs/browserLink - 200 null text/javascript; charset=UTF-8 20.8059ms
+2025-04-06 17:54:56.050 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/categories/allCategorys - null null
+2025-04-06 17:54:56.090 +03:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-04-06 17:54:56.178 +03:00 [INF] AuthenticationScheme: OpenIdConnect was challenged.
+2025-04-06 17:54:56.179 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/categories/allCategorys - 302 0 null 129.2191ms
+2025-04-06 17:55:10.027 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/categories/allCategorys - null null
+2025-04-06 17:55:10.032 +03:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-04-06 17:55:10.033 +03:00 [INF] AuthenticationScheme: OpenIdConnect was challenged.
+2025-04-06 17:55:10.033 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/categories/allCategorys - 302 0 null 6.7269ms
+2025-04-06 17:55:54.141 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/categories/allCategorys - null null
+2025-04-06 17:55:54.153 +03:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-04-06 17:55:54.153 +03:00 [INF] AuthenticationScheme: OpenIdConnect was challenged.
+2025-04-06 17:55:54.153 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/categories/allCategorys - 302 0 null 12.5726ms
+2025-04-06 17:57:10.138 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/categories/allCategorys - null null
+2025-04-06 17:57:10.139 +03:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-04-06 17:57:10.140 +03:00 [INF] AuthenticationScheme: OpenIdConnect was challenged.
+2025-04-06 17:57:10.140 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/categories/allCategorys - 302 0 null 1.5731ms
+2025-04-06 17:57:18.503 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/categories/allCategorys - null null
+2025-04-06 17:57:18.503 +03:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-04-06 17:57:18.504 +03:00 [INF] AuthenticationScheme: OpenIdConnect was challenged.
+2025-04-06 17:57:18.504 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/categories/allCategorys - 302 0 null 1.2561ms
+2025-04-06 17:58:08.172 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/categories/allCategorys - null null
+2025-04-06 17:58:08.179 +03:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-04-06 17:58:08.180 +03:00 [INF] AuthenticationScheme: OpenIdConnect was challenged.
+2025-04-06 17:58:08.180 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/categories/allCategorys - 302 0 null 8.3559ms
+2025-04-06 17:58:14.881 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/categories/allCategorys - null null
+2025-04-06 17:58:14.882 +03:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-04-06 17:58:14.882 +03:00 [INF] AuthenticationScheme: OpenIdConnect was challenged.
+2025-04-06 17:58:14.882 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/categories/allCategorys - 302 0 null 1.633ms
+2025-04-06 18:00:41.430 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/swagger/oauth2-redirect.html?code=B5B108F75F7CECF83B6747FE47B2809100BFC502C8D82D4D3320CFFA79094C28-1&scope=openid%20profile%20email%20ecommerceapi&state=U3VuIEFwciAwNiAyMDI1IDE4OjAwOjQwIEdNVCswMzAwIChHTVQrMDM6MDAp&session_state=KfqwGdpwBvgOTBUuX1rbx8ssu69y_3-O8ypWobFZWkA.3CC34CFB1CEC8DF3CC36A666F05785F3&iss=https%3A%2F%2Flocalhost%3A7110 - null null
+2025-04-06 18:00:41.481 +03:00 [INF] Sending file. Request path: '/oauth2-redirect.html'. Physical path: 'N/A'
+2025-04-06 18:00:41.481 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/swagger/oauth2-redirect.html?code=B5B108F75F7CECF83B6747FE47B2809100BFC502C8D82D4D3320CFFA79094C28-1&scope=openid%20profile%20email%20ecommerceapi&state=U3VuIEFwciAwNiAyMDI1IDE4OjAwOjQwIEdNVCswMzAwIChHTVQrMDM6MDAp&session_state=KfqwGdpwBvgOTBUuX1rbx8ssu69y_3-O8ypWobFZWkA.3CC34CFB1CEC8DF3CC36A666F05785F3&iss=https%3A%2F%2Flocalhost%3A7110 - 200 null text/html 50.9549ms
+2025-04-06 18:00:41.490 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/_framework/aspnetcore-browser-refresh.js - null null
+2025-04-06 18:00:41.490 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/_vs/browserLink - null null
+2025-04-06 18:00:41.492 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/_framework/aspnetcore-browser-refresh.js - 200 16511 application/javascript; charset=utf-8 1.3315ms
+2025-04-06 18:00:41.508 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/_vs/browserLink - 200 null text/javascript; charset=UTF-8 17.5604ms
+2025-04-06 18:00:45.052 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/categories/allCategorys - null null
+2025-04-06 18:00:45.053 +03:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-04-06 18:00:45.053 +03:00 [INF] AuthenticationScheme: OpenIdConnect was challenged.
+2025-04-06 18:00:45.053 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/categories/allCategorys - 302 0 null 1.1069ms
+2025-04-06 18:01:18.847 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/categories/allCategorys - null null
+2025-04-06 18:01:18.853 +03:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-04-06 18:01:18.858 +03:00 [INF] AuthenticationScheme: OpenIdConnect was challenged.
+2025-04-06 18:01:18.858 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/categories/allCategorys - 302 0 null 10.5578ms

@@ -1,0 +1,9 @@
+﻿global using ECommerce.Application.Contract;
+global using AutoMapper;
+global using ECommerce.Application.Exceptions;
+global using ECommerce.Application.Features;
+global using ECommerce.Application.Models;
+global using ECommerce.Domain.Entities;
+global using Microsoft.Extensions.Caching.Distributed;
+global using Microsoft.Extensions.Logging;
+global using Moq;

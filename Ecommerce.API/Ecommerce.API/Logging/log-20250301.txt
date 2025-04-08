@@ -1,0 +1,286 @@
+2025-03-01 23:47:29.532 +03:00 [INF] Now listening on: https://localhost:7060
+2025-03-01 23:47:29.584 +03:00 [INF] Now listening on: http://localhost:5062
+2025-03-01 23:47:29.613 +03:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2025-03-01 23:47:29.655 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-01 23:47:29.657 +03:00 [INF] Hosting environment: Development
+2025-03-01 23:47:29.659 +03:00 [INF] Content root path: C:\Users\MomenAbuEl-Haija\source\Workspaces\Workspace2\ECommerce\Ecommerce.API\Ecommerce.API
+2025-03-01 23:47:29.973 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/swagger/index.html - null null
+2025-03-01 23:47:30.342 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/swagger/index.html - 200 null text/html;charset=utf-8 375.5436ms
+2025-03-01 23:47:30.348 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/_vs/browserLink - null null
+2025-03-01 23:47:30.348 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/_framework/aspnetcore-browser-refresh.js - null null
+2025-03-01 23:47:30.356 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/_framework/aspnetcore-browser-refresh.js - 200 16511 application/javascript; charset=utf-8 8.21ms
+2025-03-01 23:47:30.409 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/_vs/browserLink - 200 null text/javascript; charset=UTF-8 61.0079ms
+2025-03-01 23:47:30.577 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/swagger/v1/swagger.json - null null
+2025-03-01 23:47:30.636 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 59.3872ms
+2025-03-01 23:48:52.844 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/products/allProducts - null null
+2025-03-01 23:48:52.855 +03:00 [INF] Executing endpoint 'HTTP: GET /products/allProducts'
+2025-03-01 23:48:53.802 +03:00 [WRN] No store type was specified for the decimal property 'Payment' on entity type 'Order'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-03-01 23:48:53.805 +03:00 [WRN] No store type was specified for the decimal property 'Price' on entity type 'OrderItem'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-03-01 23:48:53.808 +03:00 [WRN] No store type was specified for the decimal property 'Price' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-03-01 23:48:54.731 +03:00 [INF] Executed DbCommand (55ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[CategoryId], [p].[Name], [p].[Price]
+FROM [Products] AS [p]
+2025-03-01 23:48:54.778 +03:00 [INF] Executed endpoint 'HTTP: GET /products/allProducts'
+2025-03-01 23:48:54.788 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/products/allProducts - 200 null application/json; charset=utf-8 1943.9727ms
+2025-03-01 23:49:11.731 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/categories/allCategorys - null null
+2025-03-01 23:49:11.733 +03:00 [INF] Executing endpoint 'HTTP: GET /categories/allCategorys'
+2025-03-01 23:49:11.831 +03:00 [INF] Executed DbCommand (15ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[Id], [c].[Description], [c].[Name]
+FROM [Categories] AS [c]
+2025-03-01 23:49:11.897 +03:00 [INF] Executed endpoint 'HTTP: GET /categories/allCategorys'
+2025-03-01 23:49:11.898 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/categories/allCategorys - 200 null application/json; charset=utf-8 167.143ms
+2025-03-01 23:49:35.936 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7060/products/addProduct - application/json 94
+2025-03-01 23:49:35.949 +03:00 [INF] Executing endpoint 'HTTP: POST /products/addProduct'
+2025-03-01 23:49:36.227 +03:00 [INF] Executed DbCommand (46ms) [Parameters=[@p0='?' (DbType = Guid), @p1='?' (DbType = Guid), @p2='?' (Size = 4000), @p3='?' (Precision = 18) (Scale = 2) (DbType = Decimal)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Products] ([Id], [CategoryId], [Name], [Price])
+VALUES (@p0, @p1, @p2, @p3);
+2025-03-01 23:49:36.250 +03:00 [INF] Executed endpoint 'HTTP: POST /products/addProduct'
+2025-03-01 23:49:36.251 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7060/products/addProduct - 200 null application/json; charset=utf-8 315.5075ms
+2025-03-01 23:49:54.678 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/customers/allCustomers - null null
+2025-03-01 23:49:54.679 +03:00 [INF] Executing endpoint 'HTTP: GET /customers/allCustomers'
+2025-03-01 23:49:54.717 +03:00 [INF] Executed DbCommand (7ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[Id], [c].[Email], [c].[Name]
+FROM [Customers] AS [c]
+2025-03-01 23:49:54.736 +03:00 [INF] Executed endpoint 'HTTP: GET /customers/allCustomers'
+2025-03-01 23:49:54.737 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/customers/allCustomers - 200 null application/json; charset=utf-8 59.8613ms
+2025-03-01 23:50:29.827 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7060/orders/addOrder - application/json 239
+2025-03-01 23:50:29.839 +03:00 [INF] Executing endpoint 'HTTP: POST /orders/addOrder'
+2025-03-01 23:50:29.866 +03:00 [INF] Executed endpoint 'HTTP: POST /orders/addOrder'
+2025-03-01 23:50:29.911 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+Microsoft.AspNetCore.Http.BadHttpRequestException: Failed to read parameter "CreateOrderCommand Order" from the request body as JSON.
+ ---> System.Text.Json.JsonException: The JSON object contains a trailing comma at the end which is not supported in this mode. Change the reader options. Path: $ | LineNumber: 11 | BytePositionInLine: 0.
+ ---> System.Text.Json.JsonReaderException: The JSON object contains a trailing comma at the end which is not supported in this mode. Change the reader options. LineNumber: 11 | BytePositionInLine: 0.
+   at System.Text.Json.ThrowHelper.ThrowJsonReaderException(Utf8JsonReader& json, ExceptionResource resource, Byte nextByte, ReadOnlySpan`1 bytes)
+   at System.Text.Json.Utf8JsonReader.ConsumeNextToken(Byte marker)
+   at System.Text.Json.Utf8JsonReader.ReadSingleSegment()
+   at System.Text.Json.Utf8JsonReader.Read()
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryRead(Utf8JsonReader& reader, Type typeToConvert, JsonSerializerOptions options, ReadStack& state, T& value)
+   at System.Text.Json.Serialization.JsonConverter`1.TryRead(Utf8JsonReader& reader, Type typeToConvert, JsonSerializerOptions options, ReadStack& state, T& value, Boolean& isPopulatedValue)
+   at System.Text.Json.Serialization.JsonConverter`1.ReadCore(Utf8JsonReader& reader, JsonSerializerOptions options, ReadStack& state)
+   --- End of inner exception stack trace ---
+   at System.Text.Json.ThrowHelper.ReThrowWithPath(ReadStack& state, JsonReaderException ex)
+   at System.Text.Json.Serialization.JsonConverter`1.ReadCore(Utf8JsonReader& reader, JsonSerializerOptions options, ReadStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonTypeInfo`1.ContinueDeserialize(ReadBufferState& bufferState, JsonReaderState& jsonReaderState, ReadStack& readStack)
+   at System.Text.Json.Serialization.Metadata.JsonTypeInfo`1.DeserializeAsync(Stream utf8Json, CancellationToken cancellationToken)
+   at System.Text.Json.Serialization.Metadata.JsonTypeInfo`1.DeserializeAsObjectAsync(Stream utf8Json, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Http.HttpRequestJsonExtensions.ReadFromJsonAsync(HttpRequest request, JsonTypeInfo jsonTypeInfo, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Http.HttpRequestJsonExtensions.ReadFromJsonAsync(HttpRequest request, JsonTypeInfo jsonTypeInfo, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Http.RequestDelegateFactory.<HandleRequestBodyAndCompileRequestDelegateForJson>g__TryReadBodyAsync|102_0(HttpContext httpContext, Type bodyType, String parameterTypeName, String parameterName, Boolean allowEmptyRequestBody, Boolean throwOnBadRequest, JsonTypeInfo jsonTypeInfo)
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Http.RequestDelegateFactory.Log.InvalidJsonRequestBody(HttpContext httpContext, String parameterTypeName, String parameterName, Exception exception, Boolean shouldThrow)
+   at Microsoft.AspNetCore.Http.RequestDelegateFactory.<HandleRequestBodyAndCompileRequestDelegateForJson>g__TryReadBodyAsync|102_0(HttpContext httpContext, Type bodyType, String parameterTypeName, String parameterName, Boolean allowEmptyRequestBody, Boolean throwOnBadRequest, JsonTypeInfo jsonTypeInfo)
+   at Microsoft.AspNetCore.Http.RequestDelegateFactory.<>c__DisplayClass102_2.<<HandleRequestBodyAndCompileRequestDelegateForJson>b__2>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+2025-03-01 23:50:29.968 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: The exception handler configured on ExceptionHandlerOptions produced a 404 status response. This InvalidOperationException containing the original exception was thrown since this is often due to a misconfigured ExceptionHandlingPath. If the exception handler is expected to return 404 status responses then set AllowStatusCode404Response to true.
+ ---> Microsoft.AspNetCore.Http.BadHttpRequestException: Failed to read parameter "CreateOrderCommand Order" from the request body as JSON.
+ ---> System.Text.Json.JsonException: The JSON object contains a trailing comma at the end which is not supported in this mode. Change the reader options. Path: $ | LineNumber: 11 | BytePositionInLine: 0.
+ ---> System.Text.Json.JsonReaderException: The JSON object contains a trailing comma at the end which is not supported in this mode. Change the reader options. LineNumber: 11 | BytePositionInLine: 0.
+   at System.Text.Json.ThrowHelper.ThrowJsonReaderException(Utf8JsonReader& json, ExceptionResource resource, Byte nextByte, ReadOnlySpan`1 bytes)
+   at System.Text.Json.Utf8JsonReader.ConsumeNextToken(Byte marker)
+   at System.Text.Json.Utf8JsonReader.ReadSingleSegment()
+   at System.Text.Json.Utf8JsonReader.Read()
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryRead(Utf8JsonReader& reader, Type typeToConvert, JsonSerializerOptions options, ReadStack& state, T& value)
+   at System.Text.Json.Serialization.JsonConverter`1.TryRead(Utf8JsonReader& reader, Type typeToConvert, JsonSerializerOptions options, ReadStack& state, T& value, Boolean& isPopulatedValue)
+   at System.Text.Json.Serialization.JsonConverter`1.ReadCore(Utf8JsonReader& reader, JsonSerializerOptions options, ReadStack& state)
+   --- End of inner exception stack trace ---
+   at System.Text.Json.ThrowHelper.ReThrowWithPath(ReadStack& state, JsonReaderException ex)
+   at System.Text.Json.Serialization.JsonConverter`1.ReadCore(Utf8JsonReader& reader, JsonSerializerOptions options, ReadStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonTypeInfo`1.ContinueDeserialize(ReadBufferState& bufferState, JsonReaderState& jsonReaderState, ReadStack& readStack)
+   at System.Text.Json.Serialization.Metadata.JsonTypeInfo`1.DeserializeAsync(Stream utf8Json, CancellationToken cancellationToken)
+   at System.Text.Json.Serialization.Metadata.JsonTypeInfo`1.DeserializeAsObjectAsync(Stream utf8Json, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Http.HttpRequestJsonExtensions.ReadFromJsonAsync(HttpRequest request, JsonTypeInfo jsonTypeInfo, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Http.HttpRequestJsonExtensions.ReadFromJsonAsync(HttpRequest request, JsonTypeInfo jsonTypeInfo, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Http.RequestDelegateFactory.<HandleRequestBodyAndCompileRequestDelegateForJson>g__TryReadBodyAsync|102_0(HttpContext httpContext, Type bodyType, String parameterTypeName, String parameterName, Boolean allowEmptyRequestBody, Boolean throwOnBadRequest, JsonTypeInfo jsonTypeInfo)
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Http.RequestDelegateFactory.Log.InvalidJsonRequestBody(HttpContext httpContext, String parameterTypeName, String parameterName, Exception exception, Boolean shouldThrow)
+   at Microsoft.AspNetCore.Http.RequestDelegateFactory.<HandleRequestBodyAndCompileRequestDelegateForJson>g__TryReadBodyAsync|102_0(HttpContext httpContext, Type bodyType, String parameterTypeName, String parameterName, Boolean allowEmptyRequestBody, Boolean throwOnBadRequest, JsonTypeInfo jsonTypeInfo)
+   at Microsoft.AspNetCore.Http.RequestDelegateFactory.<>c__DisplayClass102_2.<<HandleRequestBodyAndCompileRequestDelegateForJson>b__2>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.HandleException(HttpContext context, ExceptionDispatchInfo edi)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-03-01 23:50:29.989 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7060/orders/addOrder - 500 null text/plain; charset=utf-8 163.6985ms
+2025-03-01 23:50:29.998 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: POST https://localhost:7060/orders/addOrder, Response status code: 500
+2025-03-01 23:51:08.818 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7060/orders/addOrder - application/json 414
+2025-03-01 23:51:08.831 +03:00 [INF] Executing endpoint 'HTTP: POST /orders/addOrder'
+2025-03-01 23:51:13.731 +03:00 [INF] Executed endpoint 'HTTP: POST /orders/addOrder'
+2025-03-01 23:51:13.802 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+AutoMapper.AutoMapperMappingException: Error mapping types.
+
+Mapping types:
+CreateOrderCommand -> Order
+ECommerce.Application.Features.CreateOrderCommand -> ECommerce.Domain.Entities.Order
+
+Type Map configuration:
+CreateOrderCommand -> Order
+ECommerce.Application.Features.CreateOrderCommand -> ECommerce.Domain.Entities.Order
+
+Destination Member:
+OrderItems
+
+ ---> AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+OrderItemDto -> OrderItem
+ECommerce.Application.Models.OrderItemDto -> ECommerce.Domain.Entities.OrderItem
+   at lambda_method166(Closure, OrderItemDto, OrderItem, ResolutionContext)
+   at lambda_method165(Closure, Object, Order, ResolutionContext)
+   --- End of inner exception stack trace ---
+   at lambda_method165(Closure, Object, Order, ResolutionContext)
+   at ECommerce.Application.Features.CreateOrderCommandHandler.Handle(CreateOrderCommand request, CancellationToken cancellationToken) in C:\Users\MomenAbuEl-Haija\source\Workspaces\Workspace2\ECommerce\ECommerce.Core\ECommerce.Application\Features\Orders\Commands\CreateOrder\CreateOrderCommandHandler.cs:line 23
+   at BuildingBlocks.EndPoints.OrderEnpoints.<>c.<<MapOrdersApi>b__2_2>d.MoveNext() in C:\Users\MomenAbuEl-Haija\source\Workspaces\Workspace2\ECommerce\Ecommerce.API\Ecommerce.API\EndPoints\OrderEnpoints.cs:line 30
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Http.RequestDelegateFactory.<ExecuteTaskOfT>g__ExecuteAwaited|133_0[T](Task`1 task, HttpContext httpContext, JsonTypeInfo`1 jsonTypeInfo)
+   at Microsoft.AspNetCore.Http.RequestDelegateFactory.<>c__DisplayClass102_2.<<HandleRequestBodyAndCompileRequestDelegateForJson>b__2>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+2025-03-01 23:51:13.819 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: The exception handler configured on ExceptionHandlerOptions produced a 404 status response. This InvalidOperationException containing the original exception was thrown since this is often due to a misconfigured ExceptionHandlingPath. If the exception handler is expected to return 404 status responses then set AllowStatusCode404Response to true.
+ ---> AutoMapper.AutoMapperMappingException: Error mapping types.
+
+Mapping types:
+CreateOrderCommand -> Order
+ECommerce.Application.Features.CreateOrderCommand -> ECommerce.Domain.Entities.Order
+
+Type Map configuration:
+CreateOrderCommand -> Order
+ECommerce.Application.Features.CreateOrderCommand -> ECommerce.Domain.Entities.Order
+
+Destination Member:
+OrderItems
+
+ ---> AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+OrderItemDto -> OrderItem
+ECommerce.Application.Models.OrderItemDto -> ECommerce.Domain.Entities.OrderItem
+   at lambda_method166(Closure, OrderItemDto, OrderItem, ResolutionContext)
+   at lambda_method165(Closure, Object, Order, ResolutionContext)
+   --- End of inner exception stack trace ---
+   at lambda_method165(Closure, Object, Order, ResolutionContext)
+   at ECommerce.Application.Features.CreateOrderCommandHandler.Handle(CreateOrderCommand request, CancellationToken cancellationToken) in C:\Users\MomenAbuEl-Haija\source\Workspaces\Workspace2\ECommerce\ECommerce.Core\ECommerce.Application\Features\Orders\Commands\CreateOrder\CreateOrderCommandHandler.cs:line 23
+   at BuildingBlocks.EndPoints.OrderEnpoints.<>c.<<MapOrdersApi>b__2_2>d.MoveNext() in C:\Users\MomenAbuEl-Haija\source\Workspaces\Workspace2\ECommerce\Ecommerce.API\Ecommerce.API\EndPoints\OrderEnpoints.cs:line 30
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Http.RequestDelegateFactory.<ExecuteTaskOfT>g__ExecuteAwaited|133_0[T](Task`1 task, HttpContext httpContext, JsonTypeInfo`1 jsonTypeInfo)
+   at Microsoft.AspNetCore.Http.RequestDelegateFactory.<>c__DisplayClass102_2.<<HandleRequestBodyAndCompileRequestDelegateForJson>b__2>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.HandleException(HttpContext context, ExceptionDispatchInfo edi)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-03-01 23:51:13.822 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7060/orders/addOrder - 500 null text/plain; charset=utf-8 5005.2767ms
+2025-03-01 23:51:13.822 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: POST https://localhost:7060/orders/addOrder, Response status code: 500
+2025-03-01 23:52:05.571 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7060/orders/addOrder - application/json 414
+2025-03-01 23:52:05.579 +03:00 [INF] Executing endpoint 'HTTP: POST /orders/addOrder'
+2025-03-01 23:52:23.921 +03:00 [INF] Executed endpoint 'HTTP: POST /orders/addOrder'
+2025-03-01 23:52:23.936 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+AutoMapper.AutoMapperMappingException: Error mapping types.
+
+Mapping types:
+CreateOrderCommand -> Order
+ECommerce.Application.Features.CreateOrderCommand -> ECommerce.Domain.Entities.Order
+
+Type Map configuration:
+CreateOrderCommand -> Order
+ECommerce.Application.Features.CreateOrderCommand -> ECommerce.Domain.Entities.Order
+
+Destination Member:
+OrderItems
+
+ ---> AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+OrderItemDto -> OrderItem
+ECommerce.Application.Models.OrderItemDto -> ECommerce.Domain.Entities.OrderItem
+   at lambda_method166(Closure, OrderItemDto, OrderItem, ResolutionContext)
+   at lambda_method165(Closure, Object, Order, ResolutionContext)
+   --- End of inner exception stack trace ---
+   at lambda_method165(Closure, Object, Order, ResolutionContext)
+   at ECommerce.Application.Features.CreateOrderCommandHandler.Handle(CreateOrderCommand request, CancellationToken cancellationToken) in C:\Users\MomenAbuEl-Haija\source\Workspaces\Workspace2\ECommerce\ECommerce.Core\ECommerce.Application\Features\Orders\Commands\CreateOrder\CreateOrderCommandHandler.cs:line 23
+   at BuildingBlocks.EndPoints.OrderEnpoints.<>c.<<MapOrdersApi>b__2_2>d.MoveNext() in C:\Users\MomenAbuEl-Haija\source\Workspaces\Workspace2\ECommerce\Ecommerce.API\Ecommerce.API\EndPoints\OrderEnpoints.cs:line 30
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Http.RequestDelegateFactory.<ExecuteTaskOfT>g__ExecuteAwaited|133_0[T](Task`1 task, HttpContext httpContext, JsonTypeInfo`1 jsonTypeInfo)
+   at Microsoft.AspNetCore.Http.RequestDelegateFactory.<>c__DisplayClass102_2.<<HandleRequestBodyAndCompileRequestDelegateForJson>b__2>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+2025-03-01 23:52:23.956 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: The exception handler configured on ExceptionHandlerOptions produced a 404 status response. This InvalidOperationException containing the original exception was thrown since this is often due to a misconfigured ExceptionHandlingPath. If the exception handler is expected to return 404 status responses then set AllowStatusCode404Response to true.
+ ---> AutoMapper.AutoMapperMappingException: Error mapping types.
+
+Mapping types:
+CreateOrderCommand -> Order
+ECommerce.Application.Features.CreateOrderCommand -> ECommerce.Domain.Entities.Order
+
+Type Map configuration:
+CreateOrderCommand -> Order
+ECommerce.Application.Features.CreateOrderCommand -> ECommerce.Domain.Entities.Order
+
+Destination Member:
+OrderItems
+
+ ---> AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+OrderItemDto -> OrderItem
+ECommerce.Application.Models.OrderItemDto -> ECommerce.Domain.Entities.OrderItem
+   at lambda_method166(Closure, OrderItemDto, OrderItem, ResolutionContext)
+   at lambda_method165(Closure, Object, Order, ResolutionContext)
+   --- End of inner exception stack trace ---
+   at lambda_method165(Closure, Object, Order, ResolutionContext)
+   at ECommerce.Application.Features.CreateOrderCommandHandler.Handle(CreateOrderCommand request, CancellationToken cancellationToken) in C:\Users\MomenAbuEl-Haija\source\Workspaces\Workspace2\ECommerce\ECommerce.Core\ECommerce.Application\Features\Orders\Commands\CreateOrder\CreateOrderCommandHandler.cs:line 23
+   at BuildingBlocks.EndPoints.OrderEnpoints.<>c.<<MapOrdersApi>b__2_2>d.MoveNext() in C:\Users\MomenAbuEl-Haija\source\Workspaces\Workspace2\ECommerce\Ecommerce.API\Ecommerce.API\EndPoints\OrderEnpoints.cs:line 30
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Http.RequestDelegateFactory.<ExecuteTaskOfT>g__ExecuteAwaited|133_0[T](Task`1 task, HttpContext httpContext, JsonTypeInfo`1 jsonTypeInfo)
+   at Microsoft.AspNetCore.Http.RequestDelegateFactory.<>c__DisplayClass102_2.<<HandleRequestBodyAndCompileRequestDelegateForJson>b__2>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.HandleException(HttpContext context, ExceptionDispatchInfo edi)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-03-01 23:52:23.958 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7060/orders/addOrder - 500 null text/plain; charset=utf-8 18388.1222ms
+2025-03-01 23:52:23.958 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: POST https://localhost:7060/orders/addOrder, Response status code: 500
+2025-03-01 23:52:26.692 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7060/orders/addOrder - application/json 414
+2025-03-01 23:52:26.692 +03:00 [INF] Executing endpoint 'HTTP: POST /orders/addOrder'
+2025-03-01 23:52:38.842 +03:00 [INF] Now listening on: https://localhost:7060
+2025-03-01 23:52:38.872 +03:00 [INF] Now listening on: http://localhost:5062
+2025-03-01 23:52:38.891 +03:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2025-03-01 23:52:38.931 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-01 23:52:38.933 +03:00 [INF] Hosting environment: Development
+2025-03-01 23:52:38.935 +03:00 [INF] Content root path: C:\Users\MomenAbuEl-Haija\source\Workspaces\Workspace2\ECommerce\Ecommerce.API\Ecommerce.API
+2025-03-01 23:52:39.469 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/swagger/index.html - null null
+2025-03-01 23:52:39.769 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/swagger/index.html - 200 null text/html;charset=utf-8 308.7597ms
+2025-03-01 23:52:39.773 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/_vs/browserLink - null null
+2025-03-01 23:52:39.773 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/_framework/aspnetcore-browser-refresh.js - null null
+2025-03-01 23:52:39.791 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/_framework/aspnetcore-browser-refresh.js - 200 16511 application/javascript; charset=utf-8 17.575ms
+2025-03-01 23:52:39.830 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/_vs/browserLink - 200 null text/javascript; charset=UTF-8 56.8518ms
+2025-03-01 23:52:40.000 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/swagger/v1/swagger.json - null null
+2025-03-01 23:52:40.061 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 61.7247ms

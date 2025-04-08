@@ -1,0 +1,14 @@
+2025-03-17 21:49:32.739 +03:00 [INF] Now listening on: https://localhost:7060
+2025-03-17 21:49:32.761 +03:00 [INF] Now listening on: http://localhost:5062
+2025-03-17 21:49:32.775 +03:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2025-03-17 21:49:32.801 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-17 21:49:32.803 +03:00 [INF] Hosting environment: Development
+2025-03-17 21:49:32.804 +03:00 [INF] Content root path: C:\Users\MomenAbuEl-Haija\source\Workspaces\Workspace2\ECommerce\Ecommerce.API\Ecommerce.API
+2025-03-17 21:49:33.285 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/swagger/index.html - null null
+2025-03-17 21:49:33.542 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/swagger/index.html - 200 null text/html;charset=utf-8 263.2817ms
+2025-03-17 21:49:33.543 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/_framework/aspnetcore-browser-refresh.js - null null
+2025-03-17 21:49:33.549 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/_framework/aspnetcore-browser-refresh.js - 200 16511 application/javascript; charset=utf-8 5.8803ms
+2025-03-17 21:49:33.553 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/_vs/browserLink - null null
+2025-03-17 21:49:33.596 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/_vs/browserLink - 200 null text/javascript; charset=UTF-8 43.4059ms
+2025-03-17 21:49:33.663 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/swagger/v1/swagger.json - null null
+2025-03-17 21:49:33.676 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 12.607ms
