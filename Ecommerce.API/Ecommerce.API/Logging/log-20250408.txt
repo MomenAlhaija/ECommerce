@@ -390,3 +390,83 @@ DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
 2025-04-08 11:12:40.203 +03:00 [INF] Executed action Ecommerce.API.Controller.Test1Controller.TestAuth (Ecommerce.API) in 1979.1505ms
 2025-04-08 11:12:40.203 +03:00 [INF] Executed endpoint 'Ecommerce.API.Controller.Test1Controller.TestAuth (Ecommerce.API)'
 2025-04-08 11:12:40.203 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7060/api/Test1 - 200 null application/json; charset=utf-8 2010.3394ms
+2025-04-08 11:39:20.713 +03:00 [INF] User profile is available. Using 'C:\Users\MomenAbuEl-Haija\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-04-08 11:39:20.955 +03:00 [INF] Now listening on: https://localhost:7060
+2025-04-08 11:39:20.957 +03:00 [INF] Now listening on: http://localhost:5062
+2025-04-08 11:39:20.992 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-04-08 11:39:20.993 +03:00 [INF] Hosting environment: Development
+2025-04-08 11:39:20.995 +03:00 [INF] Content root path: C:\Users\MomenAbuEl-Haija\source\Workspaces\Workspace2\ECommerce\Ecommerce.API\Ecommerce.API
+2025-04-08 11:39:21.539 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/swagger/index.html - null null
+2025-04-08 11:39:21.760 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/swagger/index.html - 200 null text/html;charset=utf-8 225.1889ms
+2025-04-08 11:39:21.772 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/_framework/aspnetcore-browser-refresh.js - null null
+2025-04-08 11:39:21.772 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/_vs/browserLink - null null
+2025-04-08 11:39:21.777 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/_framework/aspnetcore-browser-refresh.js - 200 16511 application/javascript; charset=utf-8 5.202ms
+2025-04-08 11:39:21.806 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/_vs/browserLink - 200 null text/javascript; charset=UTF-8 36.5334ms
+2025-04-08 11:39:21.842 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/swagger/v1/swagger.json - null null
+2025-04-08 11:39:21.860 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 18.5727ms
+2025-04-08 11:44:39.045 +03:00 [INF] User profile is available. Using 'C:\Users\MomenAbuEl-Haija\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-04-08 11:44:39.327 +03:00 [INF] Now listening on: https://localhost:7060
+2025-04-08 11:44:39.328 +03:00 [INF] Now listening on: http://localhost:5062
+2025-04-08 11:44:39.365 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-04-08 11:44:39.367 +03:00 [INF] Hosting environment: Development
+2025-04-08 11:44:39.370 +03:00 [INF] Content root path: C:\Users\MomenAbuEl-Haija\source\Workspaces\Workspace2\ECommerce\Ecommerce.API\Ecommerce.API
+2025-04-08 11:44:39.512 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/swagger/index.html - null null
+2025-04-08 11:44:39.744 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/swagger/index.html - 200 null text/html;charset=utf-8 241.021ms
+2025-04-08 11:44:39.749 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/_framework/aspnetcore-browser-refresh.js - null null
+2025-04-08 11:44:39.749 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/_vs/browserLink - null null
+2025-04-08 11:44:39.754 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/_framework/aspnetcore-browser-refresh.js - 200 16511 application/javascript; charset=utf-8 5.5013ms
+2025-04-08 11:44:39.783 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/_vs/browserLink - 200 null text/javascript; charset=UTF-8 34.8372ms
+2025-04-08 11:44:39.823 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/swagger/v1/swagger.json - null null
+2025-04-08 11:44:39.839 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 15.8405ms
+2025-04-08 11:44:44.508 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/swagger/oauth2-redirect.html?code=07C93A4BD356FCA7DAF68BADEF961C46CC6D12645AD8C668C8014A8EE915C1E0-1&scope=openid%20profile%20email%20ecommerceapi&state=VHVlIEFwciAwOCAyMDI1IDExOjQ0OjQzIEdNVCswMzAwIChHTVQrMDM6MDAp&session_state=c_2EjbkMwYHjIsggHo-8_ET5lZt0K7Vs25RvmTLZzEM.0A0213391E12C982619E1CAC3743DC7D&iss=https%3A%2F%2Flocalhost%3A7110 - null null
+2025-04-08 11:44:44.561 +03:00 [INF] Sending file. Request path: '/oauth2-redirect.html'. Physical path: 'N/A'
+2025-04-08 11:44:44.562 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/swagger/oauth2-redirect.html?code=07C93A4BD356FCA7DAF68BADEF961C46CC6D12645AD8C668C8014A8EE915C1E0-1&scope=openid%20profile%20email%20ecommerceapi&state=VHVlIEFwciAwOCAyMDI1IDExOjQ0OjQzIEdNVCswMzAwIChHTVQrMDM6MDAp&session_state=c_2EjbkMwYHjIsggHo-8_ET5lZt0K7Vs25RvmTLZzEM.0A0213391E12C982619E1CAC3743DC7D&iss=https%3A%2F%2Flocalhost%3A7110 - 200 null text/html 53.7553ms
+2025-04-08 11:44:44.569 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/_vs/browserLink - null null
+2025-04-08 11:44:44.569 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/_framework/aspnetcore-browser-refresh.js - null null
+2025-04-08 11:44:44.570 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/_framework/aspnetcore-browser-refresh.js - 200 16511 application/javascript; charset=utf-8 2.0339ms
+2025-04-08 11:44:44.591 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/_vs/browserLink - 200 null text/javascript; charset=UTF-8 22.3252ms
+2025-04-08 11:44:49.439 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/categories/allCategorys - null null
+2025-04-08 11:44:49.817 +03:00 [INF] Executing endpoint 'HTTP: GET /categories/allCategorys'
+2025-04-08 11:44:52.992 +03:00 [WRN] No store type was specified for the decimal property 'Payment' on entity type 'Order'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-04-08 11:44:52.994 +03:00 [WRN] No store type was specified for the decimal property 'Price' on entity type 'OrderItem'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-04-08 11:44:52.995 +03:00 [WRN] No store type was specified for the decimal property 'Price' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-04-08 11:44:53.589 +03:00 [INF] Executed DbCommand (46ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[Id], [c].[Description], [c].[Name]
+FROM [Categories] AS [c]
+2025-04-08 11:44:53.758 +03:00 [INF] Executed endpoint 'HTTP: GET /categories/allCategorys'
+2025-04-08 11:44:53.765 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/categories/allCategorys - 200 null application/json; charset=utf-8 4325.7236ms
+2025-04-08 11:45:17.065 +03:00 [INF] User profile is available. Using 'C:\Users\MomenAbuEl-Haija\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-04-08 11:45:17.343 +03:00 [INF] Now listening on: https://localhost:7060
+2025-04-08 11:45:17.344 +03:00 [INF] Now listening on: http://localhost:5062
+2025-04-08 11:45:58.620 +03:00 [INF] User profile is available. Using 'C:\Users\MomenAbuEl-Haija\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-04-08 11:45:58.956 +03:00 [INF] Now listening on: https://localhost:7060
+2025-04-08 11:45:58.957 +03:00 [INF] Now listening on: http://localhost:5062
+2025-04-08 11:45:58.970 +03:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2025-04-08 11:45:59.003 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-04-08 11:45:59.005 +03:00 [INF] Hosting environment: Development
+2025-04-08 11:45:59.007 +03:00 [INF] Content root path: C:\Users\MomenAbuEl-Haija\source\Workspaces\Workspace2\ECommerce\Ecommerce.API\Ecommerce.API
+2025-04-08 11:45:59.345 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/swagger/index.html - null null
+2025-04-08 11:45:59.578 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/swagger/index.html - 200 null text/html;charset=utf-8 237.606ms
+2025-04-08 11:45:59.584 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/_framework/aspnetcore-browser-refresh.js - null null
+2025-04-08 11:45:59.584 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/_vs/browserLink - null null
+2025-04-08 11:45:59.590 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/_framework/aspnetcore-browser-refresh.js - 200 16511 application/javascript; charset=utf-8 5.5894ms
+2025-04-08 11:45:59.619 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/_vs/browserLink - 200 null text/javascript; charset=UTF-8 34.4277ms
+2025-04-08 11:45:59.656 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/swagger/v1/swagger.json - null null
+2025-04-08 11:45:59.674 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 18.3758ms
+2025-04-08 11:46:07.499 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/swagger/oauth2-redirect.html?code=988A86413C21ACF5DD1F72784A2711FBCF45B2BCAB41496B5232FD7376F89FFF-1&scope=openid%20profile%20email%20ecommerceapi&state=VHVlIEFwciAwOCAyMDI1IDExOjQ2OjA3IEdNVCswMzAwIChHTVQrMDM6MDAp&session_state=ER6eoushQhIesv1oYi2QHLKDXJXSfFDCe5U0x1bV0XM.A4CB1DC413F83247135406450FD90473&iss=https%3A%2F%2Flocalhost%3A7110 - null null
+2025-04-08 11:46:07.561 +03:00 [INF] Sending file. Request path: '/oauth2-redirect.html'. Physical path: 'N/A'
+2025-04-08 11:46:07.562 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/swagger/oauth2-redirect.html?code=988A86413C21ACF5DD1F72784A2711FBCF45B2BCAB41496B5232FD7376F89FFF-1&scope=openid%20profile%20email%20ecommerceapi&state=VHVlIEFwciAwOCAyMDI1IDExOjQ2OjA3IEdNVCswMzAwIChHTVQrMDM6MDAp&session_state=ER6eoushQhIesv1oYi2QHLKDXJXSfFDCe5U0x1bV0XM.A4CB1DC413F83247135406450FD90473&iss=https%3A%2F%2Flocalhost%3A7110 - 200 null text/html 63.2196ms
+2025-04-08 11:46:07.576 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/_framework/aspnetcore-browser-refresh.js - null null
+2025-04-08 11:46:07.576 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/_vs/browserLink - null null
+2025-04-08 11:46:07.578 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/_framework/aspnetcore-browser-refresh.js - 200 16511 application/javascript; charset=utf-8 2.6603ms
+2025-04-08 11:46:07.593 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/_vs/browserLink - 200 null text/javascript; charset=UTF-8 17.0556ms
+2025-04-08 11:46:11.109 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7060/categories/allCategorys - null null
+2025-04-08 11:46:11.416 +03:00 [INF] Executing endpoint 'HTTP: GET /categories/allCategorys'
+2025-04-08 11:46:13.812 +03:00 [WRN] No store type was specified for the decimal property 'Payment' on entity type 'Order'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-04-08 11:46:13.815 +03:00 [WRN] No store type was specified for the decimal property 'Price' on entity type 'OrderItem'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-04-08 11:46:13.819 +03:00 [WRN] No store type was specified for the decimal property 'Price' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-04-08 11:46:14.322 +03:00 [INF] Executed DbCommand (60ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[Id], [c].[Description], [c].[Name]
+FROM [Categories] AS [c]
+2025-04-08 11:46:14.454 +03:00 [INF] Executed endpoint 'HTTP: GET /categories/allCategorys'
+2025-04-08 11:46:14.460 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7060/categories/allCategorys - 200 null application/json; charset=utf-8 3351.4381ms
